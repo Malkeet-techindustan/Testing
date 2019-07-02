@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0" />
+    <title>Foreign Xchange</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/html5.js"></script>
+    <!-- ALL CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Travel Card CSS Here -->
+    <link rel="stylesheet" type="text/css" href="css/travel_cards.css">
+
+    <!-- Homepage CSS Here -->
+    <link rel="stylesheet" type="text/css" href="css/homepage_changes_12042019.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <!-- ALL SCRIPT -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollzip.js"></script>
+    <script type="text/javascript" src="js/all-style.js"></script>
+
+    <!-- Travel Card JS Here -->
+    <script type="text/javascript" src="js/travel_cards.js"></script>
+    <!-- Currency -->
+    <script type="text/javascript">
+        function orderPage() {
+            var aud_currency = document.getElementById('aud_currency').value
+            var foreign_currency = document.getElementById('foreign_currency').value
+            var foreign_currency_select = document.getElementById('foreign_currency_select').value
+            localStorage["aud_currency"] = aud_currency
+            localStorage["foreign_currency"] = foreign_currency
+            localStorage["foreign_currency_select"] = foreign_currency_select
+            location.href = 'order.html'
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main homepage cus-home-page">
+        <!-- START HEADER PART -->
+        <header>
+            <div class="container">
+                <div class="pull-left logo desktoplogo">
+                    <h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1>
+                </div>
+                <nav class="pull-right custnav">
+                    <div id="mobilemenu"></div>
+                    <div class="pull-left logo mobilelogo">
+                        <h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1>
+                    </div>
+                    <ul class="menus">
+                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                        <li><a href="#whychoosefx">Why us</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="deliverywork.html">Home Delivery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li class="mobileb"><a href="#">Blog</a></li>
+                        <li class="mobile"><a href="javascript:void(0)" onclick="curFunction()" class="dropbtne">Buy
+                                Currency <img src="images/arrow-down.png" alt="" /></a></li>
+                        <div id="curDropdown" class="dropdown-contente">
+                            <li class="smobile"><a href="AUD-EUR.html">Euro</a></li>
+                            <li class="smobile"><a href="AUD-GBP.html">British Pounds</a></li>
+                            <li class="smobile"><a href="AUD-IDR.html">Indonesian Rupiah</a></li>
+                            <li class="smobile"><a href="AUD-JPY.html">Japanese Yen</a></li>
+                            <li class="smobile"><a href="AUD-NZD.html">New Zealand Dollars</a></li>
+                            <li class="smobile"><a href="AUD-USD.html">US Dollars</a></li>
+                        </div>
+                        <li class="mobile"><a href="javascript:void(0)" onclick="myFunctione()"
+                                class="dropbtne">AUSTRALIA
+                                WIDE <img src="images/arrow-down.png" alt="" /></a></li>
+                        <div id="myDropdowne" class="dropdown-contente">
+                            <li class="smobile"><a href="sydney.html">Sydney</a></li>
+                            <li class="smobile"><a href="melbourne.html">Melbourne</a></li>
+                            <li class="smobile"><a href="brisbane.html">Brisbane</a></li>
+                            <li class="smobile"><a href="adelaide.html">Adelaide</a></li>
+                            <li class="smobile"><a href="perth.html">Perth</a></li>
+                            <li class="smobile"><a href="wollongong.html">Wollongong</a></li>
+                        </div>
+                    </ul>
+                    <div class="links">
+                        <a onclick="myFunctione1()" class="dropbtn">Buy Currency</a>
+                        <div id="myDropdowne1" class="dropdown-content">
+                            <a href="AUD-EUR.html">Euro</a>
+                            <a href="AUD-GBP.html">British Pounds</a>
+                            <a href="AUD-IDR.html">Indonesian Rupiah</a>
+                            <a href="AUD-JPY.html">Japanese Yen</a>
+                            <a href="AUD-NZD.html">New Zealand Dollars</a>
+                            <a href="AUD-USD.html">US Dollars</a>
+                        </div>
+                        <a href="#" onclick="myFunction()" class="dropbtn">AUSTRALIA WIDE</a>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="sydney.html">Sydney</a>
+                            <a href="melbourne.html">Melbourne</a>
+                            <a href="brisbane.html">Brisbane</a>
+                            <a href="adelaide.html">Adelaide</a>
+                            <a href="perth.html">Perth</a>
+                            <a href="wollongong.html">Wollongong</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- END HEADER PART -->
+
+        <section class="foreigncurrency">
+            <div class="container">
+                <div class="col-xs-12 innerbox">
+                    <h2>Buy Foreign Currency</h2>
+                    <!--Start radio btn-->
+                    <div class="currency-form__cards">
+                        <div class="row">
+                            <div class=" col-sm-12 col-xs-12 ">
+                                <div class="form-check-inline">
+
+                                    <label class="customradio field--checked">
+                                        <span class="checkmark">
+                                            <img src="images/cash-back.svg" alt="" />
+                                        </span>
+                                        <span class="radiotextsty"> Cash </span>
+                                        <input type="radio" class="radioadd" id="check_cash" checked="checked"
+                                            name="radio">
+
+                                    </label>        
+                                    <label class="customradio">
+                                        <span class="checkmark">
+                                            <img src="images/plane-ticket1.svg">
+                                        </span>
+                                        <span class="radiotextsty">Travel Card</span>
+                                        <input type="radio" class="radioadd" id="check_travel" name="radio">
+
+                                    </label>
+                                    &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <label class="customradio">
+                                        <span class="checkmark">
+                                            <img src="images/plane-ticket1.svg">
+                                        </span>
+                                        <span class="radiotextsty">Reload Travel Card</span>
+                                        <input type="radio" class="radioadd" id="check_reload" name="radio">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End radio btn-->
+                    <form action="#">
+                        <div class="col-xs-12 fieldrow">
+                            <div class="col-md-6 col-sm-12 col-xs-12 fieldcol">
+                                <label>Australian Dollar Amount</label>
+                                <div class="col-xs-12 field fix">
+                                    <input type="tel" id="aud_currency" class="form-control custfield fix" value="5" />
+                                    <span>AUD</span>
+                                </div>
+                            </div>
+                            <div class="equl">=</div>
+                            <div class="col-md-6 col-sm-12 col-xs-12 fieldcol">
+                                <label>Foreign Currency Amount</label>
+                                <div class="col-xs-12 field">
+                                    <input type="tel" id="foreign_currency" class="form-control custfield" value="4" />
+                                    <span><select class="form-control custfieldhome" id="foreign_currency_select">
+                                            <option value="USD" selected>USD</option>
+                                            <option value="EUR">EUR</option>
+                                            <option value="SEK">SEK</option>
+                                        </select></span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="rate">1 AUD = 0.7165 USD</p>
+                        <div class="col-xs-12 text-center"><button class="buybtn"
+                                onClick="orderPage();  return false;">BUY
+                                CURRENCY</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it works section-->
+        <section class="howitworks">
+            <div class="container">
+                <div class="col-xs-12 ctitle">
+                    <h3>How It Works</h3>
+                </div>
+                <div class="col-xs-12 services">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-12 servicesbox bounce-InUp">
+                            <div class="sinnerbox">
+                                <div class="icon icon1"></div>
+                                <h4>Buy Online</h4>
+                                <p>Select your currencies and complete your payment using BPay.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-xs-12 servicesbox bounce-InUp">
+                            <div class="sinnerbox">
+                                <div class="icon icon2"></div>
+                                <h4>Delivery to Your Doorstep</h4>
+                                <p>Currencies will be delivered to your address within 5 working days or Pickup also
+                                    available for Adelaide customers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SAFE AND SECURE SECTION -->
+        <section class="safepart">
+            <div class="container fade-In">
+                <h2>SAFE AND SECURE</h2>
+                <h3>Security built into every stage of the process</h3>
+                <p>Foreign Xchange employs the latest technological and operational standards to ensure your privacy
+                    and payment details are in safe hands. We only work with premium couriers and our deliveries are
+                    fully insured for peace of mind.</p>
+            </div>
+        </section>
+
+        <!-- Premium Home Delivery -->
+        <section class=" airlock-features">
+            <div class="container">
+                <div class="col-xs-12 ctitle">
+                    <h3>Premium Home Delivery </h3>
+                </div>
+                <div class="col-xs-12 features-airlock">
+                    <div class="row">
+                        <ul class="airlock-list">
+                            <li class="airlocklist-li">
+                                <img src="images/groupicon-4.png" />
+                                <h5>Next Day Person-to-Person Delivery</h5>
+                            </li>
+                            <li class="airlocklist-li">
+                                <img src="images/groupicon-3.png" />
+                                <h5>Photo Id and check recorded</h5>
+                            </li>
+                            <li class="airlocklist-li">
+                                <img src="images/groupicon-1.png" />
+                                <h5>SMS Status Alert</h5>
+                            </li>
+                        </ul>
+                        <ul class=" scnd-listz">
+                            <li class="airlocklist-li">
+                                <img src="images/groupicon-2.png" />
+                                <h5>Live Tracking of Consignment</h5>
+                            </li>
+                            <li class="airlocklist-li">
+                                <img src="images/groupicon-5.png" />
+                                <h5>Confirmation of delivery at time of delivery</h5>
+                            </li>
+
+                            <li class="airlocklist-li">
+                                <img src="images/groupicon-6.png" />
+                                <h5>Delivery to post office</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Premium Home Delivery -->
+
+        <!--  Testimonials -->
+        <section class="testimonials-sec">
+            <div class="container">
+                <div class="google-review-logo">
+                    <div class="google-review">
+                        <a href="https://www.google.co.in/search?q=foreign+xchange&nfpr=1&sa=X&ved=0ahUKEwjAopHHxuzcAhXDdH0KHXfnAHMQvgUIJCgB&biw=1366&bih=675#lrd=0x6ab0ced63a30eb4f:0xe71c79a9770f539,1,,,"
+                            target="_blank"> <img src="images/google.png" /></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 testimonials-area">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="sinnerbox">
+                                <div class="testimonials-top">
+                                    <div class="testimonials-client-name">
+                                        <div class="icon">
+                                            <img src="images/Phil-G.jpg" />
+                                        </div>
+                                        <h4>Phil G</h4>
+                                    </div>
+                                    <div class="testimonials-rating">
+                                        <div class="rating-star">
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                        </div>
+                                        <div class="review-date">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text">
+                                    <p>This company is very helpful. Not all currencies are shown on the website but
+                                        they can get what you need. Their rates were superior to banks and other
+                                        exchange companies - I checked plenty. Terrific service - they delivered my
+                                        cash to my door (minimum order amount applies) very quickly. Highly recommend
+                                        and will use again.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="sinnerbox">
+                                <div class="testimonials-top">
+                                    <div class="testimonials-client-name">
+                                        <div class="icon">
+                                            <img src="images/Morgan-Bradley.jpg" />
+                                        </div>
+                                        <h4>Morgan Bradley</h4>
+                                    </div>
+                                    <div class="testimonials-rating">
+                                        <div class="rating-star">
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                        </div>
+                                        <div class="review-date">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text">
+                                    <p>Best Rates for buying US Dollars, Euros and British Pounds. Amit also helped me
+                                        swap some of my old US Dollar bills for the new ones without charging
+                                        anything.. I had previously checked 4 other currency shops and no one helped me
+                                        out. Thank you Foreign Xchange will see you guys next time! Definitely will
+                                        recommend you Amit to my friends and family!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="sinnerbox">
+                                <div class="testimonials-top">
+                                    <div class="testimonials-client-name">
+                                        <div class="icon">
+                                            <img src="images/Phonz-Musik.jpg" />
+                                        </div>
+                                        <h4>Phonz Musik</h4>
+                                    </div>
+                                    <div class="testimonials-rating">
+                                        <div class="rating-star">
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                        </div>
+                                        <div class="review-date">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text">
+                                    <p>Changing Philippine Pesos to AUD, I was quoted (at the time) 42.5pesos across
+                                        the road and this guy gave me approximately 41.806? I read reviews and it
+                                        seemed that it was better “across the road” but as already mentioned, this shop
+                                        gave me a better deal, by approximately .70 pesos. Whatever currency you are
+                                        changing from may be different. But certainly check this guy out before
+                                        changing your money.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="sinnerbox">
+                                <div class="testimonials-top">
+                                    <div class="testimonials-client-name">
+                                        <div class="icon">
+                                            <img src="images/Kane-Taylor.jpg" />
+                                        </div>
+                                        <h4>Kane Taylor</h4>
+                                    </div>
+                                    <div class="testimonials-rating">
+                                        <div class="rating-star">
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                        </div>
+                                        <div class="review-date">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text">
+                                    <p>Great Rates! Definitely will come back.. FX beat everyone else quite easily.
+                                        Gave me the best rates first up, no need to ask second time. Purchased US
+                                        Dollars and Canadian Dollars today at the best rate in the town! Thank you
+                                        Amit!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="sinnerbox">
+                                <div class="testimonials-top">
+                                    <div class="testimonials-client-name">
+                                        <div class="icon">
+                                            <img src="images/Lou-Tramontin.jpg" />
+                                        </div>
+                                        <h4>Lou Tramontin</h4>
+                                    </div>
+                                    <div class="testimonials-rating">
+                                        <div class="rating-star">
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                        </div>
+                                        <div class="review-date">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text">
+                                    <p>Best rate, plenty of large denominations available for easy travelling to the
+                                        USA. Transaction completed within minutes and Amit has a good personality for
+                                        customer service.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="sinnerbox">
+                                <div class="testimonials-top">
+                                    <div class="testimonials-client-name">
+                                        <div class="icon">
+                                            <img src="images/Ross-Petruzelli.jpg" />
+                                        </div>
+                                        <h4>Ross Petruzelli</h4>
+                                    </div>
+                                    <div class="testimonials-rating">
+                                        <div class="rating-star">
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                            <span class="fa fa-star star-checked"></span>
+                                        </div>
+                                        <div class="review-date">
+                                            <p>a month ago</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text">
+                                    <p>Got a great deal from Foreign Xchange for buying Euros. Checked everyone in the
+                                        city. These guys did the best rate! Will definitely recommend to my friends and
+                                        family!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End testimonials -->
+
+        <!-- video -->
+        <section class="video-sec">
+            <div class="home-video">
+                <div class="client-video">
+                    <div class="home-video-title">
+                        <h2>What our customers say</h2>
+                        <button type="button" class="btn btn-primary video-btn" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/IP7uGKgJL8U" data-target="#myModal">
+                            <img src="videos/video-play.png" />
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade cus-video-pop" id="myModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe autoplay=false class="embed-responsive-item"
+                                            src="https://www.youtube.com/embed/OQ066BAv-lI" id="video"
+                                            allowscriptaccess="always"></iframe> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  AUSTRAC Regulated -->
+        <section class="FX_info">
+            <div class="container bs-slider bs-size-xs">
+                <div class="row">
+                    <div class="col-sm-6 bs-slide bs-slide-xs aos-init bounce-InLeft">
+                        <div class="FX_col">
+                            <img src="images/austrac-regulated.png" alt="AUSTRAC Regulated" />
+                            <div class="FX_col_info">
+                                <h3>AUSTRAC Regulated</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 bs-slide bs-slider-xs aos-init bounce-InRight">
+                        <div class="FX_col">
+                            <img src="images/customers.png" alt="happy customer" />
+                            <div class="FX_col_info">
+                                <h3>35,000 Happy Customers</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Why Choose FX -->
+        <section class="whychoosefx" id="whychoosefx">
+            <div class="container">
+                <div class="col-xs-12 ctitle">
+                    <h3>Why Choose FX?</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 choosebox bounce-InUp">
+                        <div class="icon icon1"></div>
+                        <p>We have the best rates in the market, giving you the best value for money.</p>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 choosebox bounce-InUp">
+                        <div class="icon icon2"></div>
+                        <p>Order multiple different currencies with one simple checkout process.</p>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 choosebox bounce-InUp">
+                        <div class="icon icon3"></div>
+                        <p>Check rates and make your order from the comfort of your own home. Currencies are delivered
+                            to minimise the extra work for you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Australia Wide -->
+        <section class="bestratepart">
+            <div class="container fade-In">
+                <h2>Best Rates For AUD Currency Exchange - <br />Australia Wide</h2>
+                <p>We can reliably offer the best foreign exchange rates because we run an online only operation that
+                    doesn’t have the costly overheads of a physical store network. That’s right, we’re bringing the
+                    money exchange industry kicking and screaming into the 21st century.</p>
+                <p>Our customers love it because we can offer the best rates and double down on service and security.
+                    You get convenience, peace of mind and the best rates which means extra travel money for your
+                    holiday or business trip.</p>
+            </div>
+        </section>
+
+        <!--  "You Always Know Where Your Money Is" -->
+        <section class="content">
+            <div class="container fade-In">
+                <h2>You Always Know Where Your Money Is</h2>
+                <p>The moment you select your currencies and make your payment online, your exchange rate will be
+                    locked in. From there, you’ll receive updates as your currency moves through our system and a
+                    postage tracking number so you can follow your money directly to your door by premium courier.
+                    Signature and ID required on receipt for maximum security.
+                    <br /><br />The process is secured from start to finish by the the latest website and operational
+                    security and backed by our [xyz] insurance policy.
+                </p>
+                <div class="continner bounce-InUp">
+                    <div class="cicon cicon1"></div>
+                    <div class="info">
+                        <h3>Where do we deliver?</h3>
+                        <p>We deliver everywhere our postage partners cover including all the major cities; Sydney,
+                            Melbourne, Brisbane, Adelaide, Darwin, Canberra, Hobart and Perth and pretty much
+                            everywhere in between. No need to battle the traffic and parking issues in the heart of
+                            your city, be it Wollongong or the Gold Coast, we deliver your foreign currency to a
+                            location that suits you, such as your home or work.</p>
+                        <p>Your delivery is fully insured by xyz and carried by the premium level couriers at xyz
+                            company. You can expect your currency within 5 business days.</p>
+                    </div>
+                </div>
+                <div class="continner bounce-InUp">
+                    <div class="cicon cicon2"></div>
+                    <div class="info">
+                        <h3>How do our rates work?</h3>
+                        <p><a href="">Click here </a> to go directly to our currency calculator and verify that our
+                            rates really are the best. </p>
+                        <p>We achieve these incredibly good rates by operating with minimal overheads compared to brick
+                            and mortar money changers who have to cover retail rentals, teller wages and air
+                            conditioning at all time high electricity prices. Believe us, we ran a physical store for
+                            10 years and we know the pain. The good news is we came up with a better model, fit for the
+                            digital age. </p>
+                        <p>When you buy currency on <a href="">Foreignxchange.com.au</a>you won’t pay any fees or
+                            commissions and we strive to offer the best rates in Australia. Like our competitors, our
+                            margin is built into the rate but with our low overheads we can afford to give you great
+                            conversions and invest in security and customer service while still making a profit.</p>
+                    </div>
+                </div>
+                <div class="continner bounce-InUp">
+                    <div class="cicon cicon3"></div>
+                    <div class="info">
+                        <h3>What about Banks and Airport money changers?</h3>
+                        <p>Do you really want to leave your currency exchange to the last minute (at the airport) where
+                            there’s no margin for error? Travel dates have a habit of coming up fast, leaving you with
+                            too much to do and too little time. Take our advice and get your foreign currency sorted a
+                            few weeks before you’re booked to leave.</p>
+                        <p>Now, do banks have good rates? We probably don’t need to answer that one, but we will. We
+                            mentioned high shop rentals above but with the rates that banks offer you’d think they were
+                            operating out of a penthouse suite in the Brisbane, Melbourne or Sydney CBD. Traditionally
+                            the big banks had a lot less competition across the board and could get away charging
+                            terrible rates, so they did and still do. These goliath corporations are expensive to run
+                            and that money has to come from somewhere. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  "Let’s Get Started" -->
+        <section class="startedpart">
+            <div class="container">
+                <div class="col-xs-12 ctitle">
+                    <h3>Let’s Get Started</h3>
+                </div>
+                <div class="commonform">
+                    <form>
+                        <div class="fieldrow">
+                            <input id="fn" class="form-control custfield" name="fn" type="text" autocomplete="off"
+                                required />
+                            <label for="fn">First Name</label>
+                        </div>
+                        <div class="fieldrow">
+                            <input id="ln" class="form-control custfield" name="ln" type="text" autocomplete="off"
+                                required />
+                            <label for="ln">Last Name</label>
+                        </div>
+                        <div class="fieldrow">
+                            <input id="ad" class="form-control custfield" name="ad" type="text" autocomplete="off"
+                                required />
+                            <label for="ad">Address</label>
+                        </div>
+                        <div class="fieldrow">
+                            <input id="mobile" class="form-control custfield" name="mobile" type="text"
+                                autocomplete="off" required />
+                            <label for="mobile">Mobile</label>
+                        </div>
+                        <div class="fieldrow text-center">
+                            <button class="cbttn">CONTACT US</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- "Our Affiliates" -->
+        <section class="affiliatesBlock">
+            <div class="container">
+                <div class="row">
+                    <h2>Our Affiliates</h2>
+                    <div class="affiliates responsive">
+                        <div class="partners-img">
+                            <img src="images/TOLL.png" alt="happy customer" />
+                        </div>
+                        <div class="partners-img">
+                            <img src="images/BPAY-logo.png" alt="happy customer" />
+                        </div>
+                        <div class="partners-img">
+                            <img src="images/FINDER.png" alt="happy customer" />
+                        </div>
+                        <div class="partners-img">
+                            <img src="images/POLI.png" alt="happy customer" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- START FOOTER  PART -->
+        <footer class="footer">
+            <div class="container">
+                <div class="flogo">
+                    <a href=""><img src="images/logo.png" alt="" /></a>
+                </div>
+                <p class="msgtext">
+                    Planning a trip? Need some help exchanging money or just have an enquiry? <br />
+                    Contact us and we will get back to you with the right information.
+                </p>
+                <div class="main-footer">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                        <div class="rep-sec-f-sub">
+                            <h3>Get in Touch</h3>
+                            <ul>
+                                <li>
+                                    <a href="contact.html"><i class="fa fa-angle-right"></i>Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html"><i class="fa fa-angle-right"></i>FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="travelagent.html"><i class="fa fa-angle-right"></i>Travel Agent</a>
+                                </li>
+                                <li>
+                                    <a href="travel-rate-tracker.html"><i class="fa fa-angle-right"></i>Travel Rate
+                                        Tracker</a>
+                                </li>
+                                <li>
+                                    <a href="cookie-consent.html"><i class="fa fa-angle-right"></i>Cookie Consent</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                        <div class="rep-sec-f-sub">
+                            <h3>Cities</h3>
+                            <ul>
+                                <li>
+                                    <a href="melbourne.html"><i class="fa fa-angle-right"></i>Melbourne</a>
+                                </li>
+                                <li>
+                                    <a href="sydney.html"><i class="fa fa-angle-right"></i>Sydney</a>
+                                </li>
+                                <li>
+                                    <a href="brisbane.html"><i class="fa fa-angle-right"></i>Brisbane</a>
+                                </li>
+                                <li>
+                                    <a href="adelaide.html"><i class="fa fa-angle-right"></i>Adelaide</a>
+                                </li>
+                                <li>
+                                    <a href="wollongong.html"><i class="fa fa-angle-right"></i>Wollongong</a>
+                                </li>
+                                <li>
+                                    <a href="perth.html"><i class="fa fa-angle-right"></i>Perth</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                        <div class="rep-sec-f-sub">
+                            <h3>Buy Currency</h3>
+                            <ul>
+                                <li>
+                                    <a href="AUD-EUR.html"><i class="fa fa-angle-right"></i>Euros</a>
+                                </li>
+                                <li>
+                                    <a href="AUD-GBP.html"><i class="fa fa-angle-right"></i>British Pound</a>
+                                </li>
+                                <li>
+                                    <a href="AUD-IDR.html"><i class="fa fa-angle-right"></i>Indian Rupiah</a>
+                                </li>
+                                <li>
+                                    <a href="AUD-JPY.html"><i class="fa fa-angle-right"></i>Japanese Yen</a>
+                                </li>
+                                <li>
+                                    <a href="AUD-NZD.html"><i class="fa fa-angle-right"></i>New Zealand Dollars</a>
+                                </li>
+                                <li>
+                                    <a href="AUD-USD.html"><i class="fa fa-angle-right"></i>US Dollars</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                        <div class="rep-sec-f-sub">
+                            <div class="footer-social">
+                                <h3>Social Media</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-contact-us">
+                                <h3>Contact Us</h3>
+                                <ul>
+                                    <li>
+                                        <div class="ficon ficon1"></div>
+                                        <p>Level 2/22 Grenfell Street, Adelaide. SA 5000</p>
+                                    </li>
+                                    <li>
+
+                                        <div class="ficon ficon2"></div>
+                                        <p><a href="tel:0882216565">(08)8221 6565</a></p>
+                                    </li>
+                                    <li>
+                                        <div class="ficon ficon3"></div>
+                                        <p><a href="mailto:info@foreignxchange.com.au">info@foreignxchange.com.au</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <div class="ficon ficon4"></div>
+                                        <p>Mon-Fri 10.00 A.M-6.00 P.M <br />
+                                            Sat 11.00 A.M-4 P.M</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <p> &copy; Foreign Xchange. All Rights Reserved | <a class="link" href="#">Terms of Use</a> | <a
+                            class="link" href="#">Privacy Policy</a> | <a href="#" class="link">Cookie Consent</a> | <a
+                            class="link" href="#">Why Us</a> |
+
+                        <a class="link" href="about.html">About Us</a> | <a class="link" href="#">Blog</a></p>
+                    <p class="mar-top">ABN 19 168 102 332</p>
+                </div>
+            </div>
+
+
+        </footer>
+        <!-- END FOOTER PART -->
+    </div>
+    <!-- FOR SIGN IN MODAL -->
+    <div class="modal fade modal-sign" id="Modal-signin" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&nbsp;</button>
+                    <h4 class="form-title">Sign In</h4>
+                    <div class="forminn clearfix">
+                        <div class="formfield">
+                            <div class="form-group">
+                                <label>Username</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group last">
+                                <label>Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="leftrmbr">
+                                <label>Remember me<input type="checkbox"><span class="checkmark"></span></label>
+                            </div>
+                            <div class="rightrmbr">
+                                <label><a href="#">Forgot password?</a><input type="checkbox"><span
+                                        class="checkmark"></span></label>
+                            </div>
+                            <div class="btn-submitmodel">
+                                <input type="submit" value="SIGN IN" class="btn">
+                            </div>
+                            <div class="reginote"><span>Don’t have an account? <a class="openmodel-register" href="#"
+                                        data-toggle="modal" data-target="#Modal-signup"
+                                        data-dismiss="modal">Register</a></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOR SIGN UP MODAL -->
+    <div class="modal fade modal-sign" id="Modal-signup" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&nbsp;</button>
+                    <h4 class="form-title">Register</h4>
+                    <div class="forminn clearfix">
+                        <div class="formfield">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Address</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group last input-filefield">
+                                <label>Identification</label>
+                                <input type="file" name="file-7[]" id="file-7" class="inputfile inputfile-6"
+                                    data-multiple-caption="{count} files selected" multiple />
+                                <label for="file-7"><strong> Choose File</strong><span></span></label>
+                            </div>
+                            <p class="file-note">Please upload a Driving Licence Or Passport for proof of
+                                identification.</p>
+                            <div class="btn-submitmodel">
+                                <input type="submit" value="REGISTER" class="btn">
+                            </div>
+                            <div class="reginote"><span>Already registered? <a href="#">Sign in</a></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="backtoTop" id="return-to-top"><a href="javascript:"><i class="fa fa-arrow-up"
+                aria-hidden="true"></i></a></div>
+    <script type="text/javascript">
+        // ===== Scroll to Top ==== 
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200);    // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function () {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0                       // Scroll to top of body
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+header.fusion-header-wrapper{
+	padding-top: 0;
+}
+header.fusion-header-wrapper .fusion-row{
+	max-width: 100%;
+}
+.fusion-main-menu > ul > li{
+	padding-right: 30px !important;
+}
+.fusion-main-menu > ul > li.fusion-last-menu-item{
+	padding-right: 0 !important;
+}
+.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder > ul, .fusion-mobile-nav-holder > ul {
+	border-color: #dadada;
+}
+.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-mobile-nav-item a {
+	border-bottom: 1px solid #ddd;
+}
+.fusion-caret .fusion-dropdown-indicator:before,
+.fusion-icon-bars:before {
+	font-family: fontAwesome;
+}
+.fusion-open-submenu:before {
+	content: '\f107' !important;
+	font-family: fontAwesome !important;
+	font-size: 18px;
+}
+footer i.fa.fa-facebook:before ,.fa.fa-linkedin:before {
+	font-family: fontAwesome;
+}
+footer i.fa.fa-facebook:before {
+	content: "\f09a";
+}
+.footer-social ul{
+	padding-top: 0 !important;
+}
+.footer-contact-us ul li {
+	display: block;
+	margin: 0 0 10px;
+	text-align: left;
+}
+.footer-contact-us ul li a{
+	font-size: 14px;
+	display: block;
+}
+.footer-contact-us ul li .ficon {
+	float: left;
+	width: 20px;
+	background-position: center;
+	height: 26px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+.rep-sec-f a {
+	color: #000 !important;
+	transition: .2s ease-out;
+}
+.rep-sec-f a:hover{
+	color: #282e7d !important;
+}
+.footer .copyright p {
+	font-size: 13px !important;
+	letter-spacing: 1.5px;
+}
+.footer .copyright p a{
+	color: #fff !important;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+}
+.to-top-container {
+	display: none;
+}
+.footer-social ul li {
+	padding: 0 0px 0 0 !important;
+}
+.footer .flogo {
+	padding-bottom: 0;
+	margin: 0;
+}
+p.msgtext {
+    color: #717171 !important;
+    letter-spacing: 1.5px !important;
+}
+.footer .copyright p a:hover {
+    color: #fecb1e !important;
+}
+.footer .copyright {
+    padding: 20px 0 40px !important;
+}
+@media screen and (max-width: 1000px){
+	.mob-hidden {
+		display: none;
+	}
+	.row.middle-header .col-sm-6 {
+		float: none;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 479px){
+	.fusion-logo img {
+		width: auto;
+		max-width: 200px;
+	}
+}
+

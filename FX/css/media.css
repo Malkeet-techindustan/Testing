@@ -1,0 +1,3006 @@
+@media only screen and (max-width: 1620px) {
+  .container, .foreigncurrency .container {
+    width: 1140px;
+  }
+
+  header .logo img {
+    width: 200px;
+  }
+
+  .howitworks::before, .howitworks::after, .content::before, .content::after {
+    display: none;
+  }
+
+  .ctitle h3 {
+    font-size: 36px;
+  }
+
+  .safepart::after, .bestratepart::after, .testimonials::after {
+    width: 90.6%;
+  }
+
+  .custnav .menus > li {
+    padding: 0 10px;
+  }
+
+  .custnav .menus > li > a, .custnav .links a {
+    font-size: 13px;
+  }
+
+  header .container::after {
+    right: -301px;
+    height: 669px;
+  }
+
+  .maintexts {
+    padding: 55px 0 75px;
+  }
+
+  .maintexts h2 {
+    font-size: 40px;
+  }
+
+  .foreigncurrency .innerbox {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+  }
+
+  .foreigncurrency .innerbox h2 {
+    font-size: 26px;
+    margin-bottom: 0px;
+  }
+
+  .foreigncurrency .field .custfield {
+    height: 54px;
+    font-size: 18px;
+    padding: 6px 154px 6px 20px;
+  }
+
+  .foreigncurrency .field span {
+    font-size: 18px;
+    padding: 12px 15px;
+    width: 90px;
+  }
+
+  .foreigncurrency .fieldcol label {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .foreigncurrency .fieldrow .equl {
+    top: 71px;
+  }
+
+  .foreigncurrency .rate {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+
+  .buybtn {
+    font-size: 18px;
+    width: 480px;
+  }
+
+  .howitworks {
+    padding-top: 75px;
+  }
+
+  .howitworks .services .row {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  .howitworks .services .servicesbox {
+    padding: 80px 30px 0;
+  }
+
+  .whychoosefx .choosebox p {
+    width: 275px;
+  }
+
+  .howitworks .services .servicesbox h4 {
+    font-size: 22px;
+    margin: 25px 0 22px;
+  }
+
+  .howitworks .services .servicesbox p {
+    font-size: 16px;
+  }
+
+  .safepart {
+    padding: 65px 0 75px;
+  }
+
+  .safepart h2, .safepart h3, .bestratepart h2, .testimonials .clientsay h3 {
+    font-size: 36px;
+  }
+
+  .safepart p, .whychoosefx .choosebox p, .testimonials .carousel-inner > .item span {
+    font-size: 16px;
+  }
+
+  .content .continner .info {
+    width: 998px;
+  }
+
+  .bestratepart {
+    padding: 70px 0;
+  }
+
+  .bestratepart p, .content p, .content p, .content .continner .info p, .testimonials .carousel-inner > .item h4, .testimonials .carousel-inner > .item p, .footer ul li p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .footer ul li p {
+    font-size: 14px;
+  }
+
+  .content h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .content .continner .info h3 {
+    font-size: 21px;
+  }
+
+  .content .continner .info p {
+    padding-top: 20px;
+  }
+
+  .testimonials .video {
+    height: 459px;
+    width: 682px;
+    top: 135px;
+  }
+
+  .testimonials .clientsay {
+    width: 90%;
+  }
+
+  .testimonials .qutimg img {
+    max-width: 20%;
+  }
+
+  .cbttn {
+    font-size: 18px;
+  }
+
+  .footer .msgtext {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .footer ul {
+    padding-top: 60px;
+  }
+
+  .footer .copyright {
+    padding: 15px 0;
+  }
+
+  .foreigncurrency.newcurrencyBlock .fieldrow .equl {
+    bottom: 50px;
+    top: auto;
+  }
+
+  .foreigncurrency.newcurrencyBlock .field.fix span {
+    padding: 13px 12px !important;
+    font-size: 18px;
+  }
+
+  .foreigncurrency.newcurrencyBlock .field span {
+    padding: 12px 10px !important;
+  }
+
+  .foreigncurrency.newcurrencyBlock .field select.form-control.custfieldhome {
+    padding: 0 24px 0 0;
+    background-position: 90% 55%;
+    font-size: 16px;
+  }
+
+  section.foreigncurrency.newcurrencyBlock .field .custfield {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  header.innerheader .container:after {
+    height: 530px;
+  }
+
+  section.foreigncurrency.newcurrencyBlock .newcurrency_btn label {
+    margin-bottom: 0;
+  }
+
+  .rev-header p {
+    font-size: 18px;
+  }
+
+  .testimonials-text p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .rev-name h4 {
+    font-size: 16px;
+  }
+
+  .client-top-txt p {
+    font-size: 18px;
+  }
+
+  .testimonials-client-name h4 {
+    font-size: 16px;
+  }
+
+  .review-date p {
+    font-size: 13px;
+  }
+
+  .rating-star span {
+    font-size: 16px;
+  }
+
+  .rev-rating img {
+    width: 120px;
+  }
+
+  .cus-review {
+    min-height: 230px;
+  }
+
+  .new-landing-page .foreigncurrency.bg-blue {
+    right: -35%;
+  }
+
+  span.buy-currency-dropdown, span.country-dropdown {
+    height: 44px;
+    line-height: 44px;
+  }
+}
+
+@media only screen and (max-width: 1480px) {
+  .new-landing-page .foreigncurrency.bg-blue {
+    right: -33%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .orderstep .myorder .sec-full .radiobtns label {
+    font-size: 16px;
+  }
+
+  .foreigncurrency.newcurrencyBlock button.buybtn {
+    font-size: 15px;
+  }
+
+  header .logo img {
+    width: 250px;
+  }
+
+  .testimonials .video {
+    height: 377px;
+    width: 560px;
+  }
+
+  .foreigncurrency .innerbox h2 {
+    font-size: 20px;
+  }
+
+  .foreigncurrency .fieldcol label {
+    font-size: 14px;
+  }
+
+  .buybtn {
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .foreigncurrency .field span {
+    font-size: 14px;
+  }
+
+  .foreigncurrency .fix span {
+    padding: 16px 15px !important;
+  }
+
+  .custfieldhome {
+    font-size: 16px;
+    padding-left: 12px;
+  }
+
+  .howitworks {
+    padding-top: 40px;
+  }
+
+  .ctitle h3 {
+    font-size: 28px;
+  }
+
+  .ctitle h3:before, .ctitle h3:after {
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+  }
+
+  .howitworks .services .servicesbox h4 {
+    font-size: 20px;
+    margin: 0px 0 22px;
+  }
+
+  .safepart h2, .safepart h3, .bestratepart h2, .testimonials .clientsay h3 {
+    font-size: 28px;
+  }
+
+  .safepart {
+    padding: 50px 0 50px;
+  }
+
+  .testimonials {
+    padding: 50px 0 50px;
+  }
+
+  .testimonials .container {
+    position: relative;
+  }
+
+  .testimonials .qutimg {
+    margin-top: 0;
+    position: absolute;
+    left: 85px;
+    width: 200px;
+    top: -40px;
+  }
+
+  .testimonials .carousel-control {
+    width: 35px;
+    height: 35px;
+    background-size: 12px;
+  }
+
+  .FX_info .FX_col h3 {
+    font-size: 20px;
+  }
+
+  .FX_info .FX_col {
+    padding: 45px 0;
+  }
+
+  .whychoosefx {
+    padding: 85px 0 65px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .bestratepart p, .content p, .content p, .content .continner .info p, .testimonials .carousel-inner > .item h4, .testimonials .carousel-inner > .item p, .footer ul li p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .startedpart {
+    padding: 0 0 50px;
+  }
+
+  .custnav .menus > li > a, .custnav .links a {
+    font-size: 12px;
+  }
+
+  .foreigncurrency {
+    padding-bottom: 100px;
+    padding-top: 12px;
+  }
+
+  .orderconts h2 {
+    font-size: 28px;
+  }
+
+  .orderconts .orderstep .myorder {
+    padding: 32px 0 0 0;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .orderconts .orderstep .custtab > li > a {
+    font-size: 14px;
+  }
+
+  .orderstep .myorder label {
+    font-size: 16px;
+  }
+
+  .orderstep .myorder select.custfield {
+    font-size: 14px;
+  }
+
+  .orderstep .myorder .fieldbox input {
+    font-size: 14px;
+  }
+
+  .orderstep .myorder .fieldbox select {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+
+  .orderstep .myorder .rate {
+    font-size: 16px;
+  }
+
+  .orderstep .myorder label {
+    font-size: 14px;
+  }
+
+  .orderstep .myorder .radiobtns label {
+    font-size: 14px;
+  }
+
+  .orderstep .myorder .radiobtns ul li label {
+    font-size: 14px;
+  }
+
+  .orderstep .myorder .notes .custfield {
+    font-size: 14px;
+  }
+
+  .orderstep .myorder .addbtn {
+    padding: 10px 70px 9px 20px;
+    font-size: 16px;
+  }
+
+  .orderstep .myorder .summary .cashtable {
+    padding: 25px 30px;
+  }
+
+  .orderstep .myorder .summary .cashtable p {
+    font-size: 16px;
+  }
+
+  .orderstep .myorder .summary .cashtable h4 {
+    font-size: 18px;
+  }
+
+  .orderstep .myorder .summary .cashtable .total {
+    font-size: 18px;
+  }
+
+  .orderstep .myorder .summary .msg {
+    font-size: 16px;
+  }
+
+  .nextbtn {
+    font-size: 20px;
+    padding: 10px 75px 10px 40px;
+  }
+
+  .faqs .question .title {
+    font-size: 16px;
+  }
+
+  .faqs .question p {
+    font-size: 14px;
+  }
+
+  .footer .msgtext {
+    font-size: 16px;
+  }
+
+  .footer .copyright p {
+    font-size: 12px;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul.title li {
+    font-size: 16px;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul.data li {
+    font-size: 14px;
+  }
+
+  .reviewconfirm .ordertable .tableinner .total span {
+    font-size: 16px;
+  }
+
+  .reviewconfirm .siginregister p {
+    font-size: 16px;
+  }
+
+  .main .reviewconfirm .siginregister a {
+    font-size: 18px;
+  }
+
+  .checkboxbtn + label {
+    font-size: 16px;
+  }
+
+  .ctitle2 {
+    font-size: 28px;
+  }
+
+  .ctitle2 span {
+    margin: 15px 10px 0 0;
+  }
+
+  .contactus .contactinner .toptext {
+    font-size: 18px;
+  }
+
+  .contactus .contactinner ul li p {
+    font-size: 14px;
+  }
+
+  .commonform label {
+    font-size: 16px;
+  }
+
+  .cbttn {
+    font-size: 16px;
+  }
+
+  .adelaidesub {
+    font-size: 24px;
+  }
+
+  .adelaide p {
+    font-size: 14px;
+  }
+
+  .adelaide .contactinner ul li {
+    font-size: 14px;
+  }
+
+  .adelaide .ade .continner .info p {
+    font-size: 14px;
+  }
+
+  .content .continner .info h3 {
+    font-size: 20px;
+  }
+
+  .footer ul li .ficon {
+    background-size: 20px;
+  }
+
+  .paymentstep .pickdelivery .pickuploca p {
+    font-size: 16px;
+  }
+
+  .paymentstep .pickdelivery .pickuploca label {
+    font-size: 14px;
+  }
+
+  .pickupstore .msg {
+    font-size: 18px;
+  }
+
+  .bootstrap-datetimepicker-widget table th.picker-switch {
+    font-size: 20px;
+  }
+
+  .table-condensed thead tr .dow {
+    font-size: 15px;
+  }
+
+  .rbttn {
+    font-size: 18px;
+  }
+
+  .client-video {
+    height: 550px;
+  }
+
+  .about-img img {
+    width: 75%;
+  }
+
+  .foreigncurrency .fix.field span {
+    padding-top: 16px !important;
+    font-size: 14px;
+  }
+
+  .new-landing-page .foreigncurrency.bg-blue {
+    padding: 0 10% 0 5%;
+    width: auto;
+    top: -90px;
+    right: -26%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .new-landing-page .foreigncurrency.bg-blue {
+    padding: 0 10% 0 5%;
+    width: auto;
+    top: -90px;
+    right: -60px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .travel-rate-tracker .orderconts h2 {
+    font-size: 28px !important;
+  }
+
+  .fieldrow-bottom {
+    margin-top: 0px;
+  }
+
+  .dropdown-content {
+    top: 52px;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    width: auto;
+    overflow: auto;
+    z-index: 1;
+    transform: translateX(-0%);
+    left: 0;
+  }
+
+  .mobileb, .smobile {
+    display: block;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul .col4 {
+    word-wrap: break-word;
+  }
+
+  .container, .foreigncurrency .container, .orderconts .container {
+    width: 970px;
+    padding: 0 15px;
+  }
+
+  #mobilemenu {
+    width: 52px;
+    height: 52px;
+    float: left;
+    cursor: pointer;
+    margin-right: 40px;
+    border: 2px solid #282f76;
+    border-radius: 100%;
+    background: url(../images/menu-icon.png) no-repeat 50% 50%;
+  }
+
+  .custnav .menus {
+    position: absolute;
+    display: none;
+    z-index: 111;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .custnav .menus > li {
+    width: 100%;
+    padding: 8px 15px;
+    border-top: 2px solid #ebebeb;
+  }
+
+  .foreigncurrency .innerbox {
+    padding: 50px 10px 57px;
+  }
+
+  .safepart::after, .bestratepart::after, .testimonials::after {
+    width: 98.9%;
+  }
+
+  .whychoosefx .row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  .whychoosefx .choosebox {
+    padding: 60px 20px 0;
+  }
+
+  .whychoosefx .choosebox p {
+    padding-left: 15px;
+    width: 220px;
+    text-align: left;
+  }
+
+  .bestratepart .container {
+    padding-left: 50px;
+  }
+
+  .content .continner .info {
+    width: 798px;
+  }
+
+  .testimonials .qutimg {
+    width: 325px;
+  }
+
+  .testimonials .clientsay {
+    width: 90%;
+  }
+
+  .testimonials .nextprev {
+    margin-top: 40px;
+  }
+
+  .orderconts .orderbox {
+    padding: 85px 40px 50px;
+  }
+
+  .orderstep .myorder select.custfield {
+    height: 54px;
+    width: 315px;
+  }
+
+  .orderstep .myorder .fieldbox input {
+    width: 120px;
+    height: 51px;
+  }
+
+  .orderstep .myorder .fieldbox {
+    width: 216px;
+  }
+
+  .orderstep .myorder .fieldbox select {
+    height: 51px;
+  }
+
+  .orderstep .myorder .notes .custfield {
+    height: 54px;
+  }
+
+  .orderstep .myorder .addbtn {
+    font-size: 20px;
+  }
+
+  .orderstep .myorder .addbtn {
+    background-size: 22px auto;
+    padding-right: 76px;
+  }
+
+  .orderstep .myorder .summary .cashtable {
+    padding: 25px 30px;
+  }
+
+  .orderstep .myorder .summary .cashtable p span {
+    width: 614px;
+  }
+
+  .orderstep .myorder .summary .msg {
+    letter-spacing: 1px;
+  }
+
+  .orderconts .faqbox {
+    padding: 35px;
+  }
+
+  .paymentstep .pickdelivery .nav-tabs > li {
+    width: 49.5%;
+  }
+
+  .checkboxbtn + label {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 35px;
+  }
+
+  .footer ul li p {
+    width: 170px;
+  }
+
+  .top-line {
+    font-size: 28px;
+    width: 75%;
+  }
+
+  .travel-rate-tracker .buycurrencyinner h2 {
+    font-size: 28px;
+  }
+
+  .sec-full .padd-rem {
+    margin-bottom: 15px;
+  }
+
+  .ratelist-order .rate-list {
+    height: 200px;
+  }
+
+  .ratelist-order h3 {
+    font-size: 14px;
+  }
+
+  .cur-sec-txt {
+    padding-left: 10px;
+  }
+
+  .buycurrencyBlock .contactform .commonform {
+    padding: 30px 45px;
+  }
+
+  .rev-text p {
+    font-size: 14px;
+  }
+
+  .rev-header p {
+    font-size: 16px;
+    min-height: 44px;
+  }
+
+  .client-top-txt p {
+    font-size: 16px;
+  }
+
+  .trustpilot-logo {
+    width: 150px;
+  }
+
+  .google-review {
+    width: 140px;
+  }
+
+  .client-video .home-video-title h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+
+  .client-video .btn-primary {
+    width: 70px;
+  }
+
+  .about-name h3 {
+    font-size: 20px;
+  }
+
+  .about-name span {
+    font-size: 14px;
+  }
+
+  .about-img img {
+    width: 80%;
+  }
+
+  .new-landing-page .pay-transaction ul.list-style li {
+    width: 50%;
+  }
+
+  .new-landing-page .paddingright {
+    margin: 20px 0;
+  }
+
+  .new-landing-page .transaction-text {
+    padding: 0 80px 0 0;
+  }
+
+  .new-landing-page .foreigncurrency.bg-blue {
+    padding: 0 10% 0 0;
+    width: auto;
+    right: -40px;
+    margin-bottom: 20px;
+  }
+
+  .buycurrencyinner h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .new-landing-page .custom-currency-code .ratelist-order-droper .btn-group button.btn {
+    font-size: 16px;
+  }
+
+  body .myorder span.select2.select2-container span.select2-selection.select2-selection--single {
+    height: 52px;
+  }
+
+  p.height-custom {
+    min-height: 68px;
+    font-size: 16px !important;
+  }
+
+  .bpay {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .remove_field {
+    left: -17px;
+  }
+
+  .orderstep .myorder .sec-full .fieldbox {
+    margin-top: 0;
+  }
+
+  .main-footer {
+    display: inline-block;
+  }
+
+  .footer ul li {
+    width: 50%;
+  }
+
+  .rep-sec-f .rep-sec-f-sub {
+    border-right: 0px solid #d8d4d4;
+  }
+
+  .footer ul li p {
+    width: 290px;
+  }
+
+  .footer .footer-contact-us ul li {
+    width: 100%;
+  }
+
+  .rep-sec-f {
+    margin-bottom: 20px;
+  }
+
+  section.foreigncurrency.newcurrencyBlock form {
+    display: block;
+  }
+
+  section.foreigncurrency.newcurrencyBlock .fieldrow .fieldcol {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .foreigncurrency.newcurrencyBlock .innerbox h2 {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .billerDesc li {
+    width: auto;
+    padding-left: 10px;
+  }
+
+  .foreigncurrency.newcurrencyBlock .fieldrow .equl {
+    bottom: 0;
+  }
+
+  .deliveredcal .col-xs-6 .custdate {
+    width: 100%;
+  }
+
+  .links .dropbtn:after {
+    content: "";
+    background-image: url(../images/drop2.png);
+    width: 80px;
+    height: 79px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 5px 7px;
+  }
+
+  .adelaide .ade .continner .info {
+    width: 75%;
+  }
+
+  .adelaide .ade .continner .cicon {
+    width: 25%;
+    height: 107px;
+  }
+
+  .orderstep .myorder .fieldrow {
+    width: 100%;
+  }
+
+  .orderstep .myorder .radiobtns {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container, .foreigncurrency .container, .orderconts .container {
+    width: 750px;
+  }
+
+  header .container::after {
+    display: none;
+  }
+
+  .custnav .links a {
+    border-color: #282f76;
+    color: #282f76;
+    font-size: 15px;
+    padding: 11px 26px;
+  }
+
+  #mobilemenu {
+    width: 47px;
+    height: 47px;
+    margin-right: 15px;
+  }
+
+  header .logo {
+    margin-top: 0px;
+  }
+
+  header .logo img {
+    width: 235px;
+  }
+
+  .maintexts {
+    padding: 75px 0;
+  }
+
+  .foreigncurrency {
+    padding-bottom: 70px;
+    padding-top: 10px;
+  }
+
+  .foreigncurrency .innerbox h2 {
+    margin-bottom: 20px;
+  }
+
+  .foreigncurrency .fieldcol {
+    margin-top: 8px;
+  }
+
+  .foreigncurrency .fieldrow .equl {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+  }
+
+  .howitworks .services .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .howitworks .services .servicesbox {
+    padding: 80px 15px 0;
+  }
+
+  .howitworks .services .servicesbox p {
+    font-size: 16px;
+  }
+
+  .safepart h3 {
+    font-size: 38px;
+  }
+
+  .whychoosefx .choosebox {
+    text-align: center;
+  }
+
+  .whychoosefx .choosebox .icon {
+    width: 100%;
+    background-position: 50% 0;
+  }
+
+  .whychoosefx .choosebox p {
+    width: 100%;
+    padding: 15px 0 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .bestratepart p, .safepart p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 0px;
+  }
+
+  .content p, .content .continner .info p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .content .continner .info {
+    width: 575px;
+    padding-left: 30px;
+  }
+
+  .testimonials .video {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: 485px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+  }
+
+  .testimonials .qutimg {
+    width: 160px;
+    margin: 0px;
+  }
+
+  .testimonials .clientsay, .startedpart .commonform {
+    width: 100%;
+  }
+
+  .footer .msgtext {
+    font-size: 16px;
+  }
+
+  .orderconts .orderbox {
+    padding: 85px 20px 50px;
+  }
+
+  .orderconts .orderstep .custtab > li > a {
+    font-size: 17px;
+    padding: 11px 10px;
+  }
+
+  .orderstep .myorder select.custfield {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .orderstep .myorder .fieldbox {
+    margin-top: 10px;
+  }
+
+  .orderstep .myorder .summary .cashtable p span {
+    width: 434px;
+  }
+
+  .nextbtn, .rbttn {
+    font-size: 22px;
+  }
+
+  .paymentstep .pickdelivery .nav-tabs > li {
+    width: 49.4%;
+  }
+
+  .paymentstep .text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .paymentstep .pickdelivery .nav-tabs > li > a {
+    font-size: 18px;
+    padding: 14px 15px;
+  }
+
+  .paymentstep .opts ul li {
+    height: 122px;
+  }
+
+  .paymentstep .opts ul li label {
+    height: 120px;
+  }
+
+  .paymentstep .opts ul li p {
+    margin-top: 37px;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul.title li {
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul li {
+    padding: 10px 20px;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul .col1 {
+    width: 30%;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul .col4 {
+    width: 19%;
+  }
+
+  .reviewconfirm .siginregister p {
+    font-size: 20px;
+  }
+
+  .reviewconfirm .siginregister a {
+    width: 330px;
+  }
+
+  .reviewconfirm .personaldetails .edit {
+    margin-top: 15px;
+    float: left;
+  }
+
+  .reviewconfirm .personaldetails .detailtable .tableinner ul li {
+    padding: 8px 20px;
+  }
+
+  .reviewconfirm .personaldetails .detailtable .tableinner ul.pinfo li {
+    padding: 6px 20px;
+  }
+
+  .checkboxbtn + label::before {
+    top: 3px;
+  }
+
+  .contactus .contactinner .toptext {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .faqpage .faqs .question .title {
+    background-position: 96% 50%;
+  }
+
+  .custnav .links a:first-child {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .dropdown-content {
+    margin-right: 20px;
+  }
+
+  .abouttext {
+    clear: both;
+  }
+
+  .buycurrencylist h2.ctitle2 {
+    font-size: 16px;
+  }
+
+  .buycurrencylist {
+    padding: 30px 0;
+  }
+
+  .rev-text {
+    margin-bottom: 0px;
+  }
+
+  .rev-header p {
+    min-height: auto;
+  }
+
+  .cus-review {
+    margin-bottom: 20px;
+  }
+
+  .trustpilot-logo {
+    margin: 0px 15px 0 0;
+  }
+
+  .cus-video-pop .modal-dialog {
+    width: 80%;
+  }
+
+  .client-video {
+    height: 450px;
+  }
+
+  .cus-review {
+    min-height: 200px;
+  }
+
+  .about-name h3 {
+    font-size: 18px;
+  }
+
+  .newcurrency_btn {
+    padding: 0;
+  }
+
+  .region_wide {
+    margin-right: 0;
+  }
+
+  span.buy-currency-dropdown img, 
+  span.country-dropdown img {
+    display: none;
+  }
+
+  .newcurrencyBlock .textBlock h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+    /****landingpage***/
+  .new-landing-page  .foreigncurrency.bg-blue .fieldcol.padding-left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .new-landing-page .foreigncurrency.bg-blue .fieldcol.padding-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .new-landing-page .pay-transaction {
+    margin: 40px 0 30px 0;
+  }
+
+  .new-landing-page .foreigncurrency.bg-blue {
+    padding: 40px;
+    width: 100%;
+    right: 0;
+    background: #282f76;
+    float: left;
+    top: 0;
+    margin: 20px 0;
+    position: relative;
+  }
+
+  .new-landing-page .right-side {
+    position: relative;
+    height: 100%;
+    float: left;
+    display: block;
+  }
+
+  .new-landing-page .transaction-text {
+    padding: 0;
+    display: block;
+    clear: both;
+    float: left;
+  }
+
+  .new-landing-page .pay-transaction h2.ctitle2 {
+    width: 100%;
+  }
+
+  .new-landing-page .cus-cover {
+    display: flex;
+    flex-direction: column;
+    display: -webkit-flex;
+  }
+
+  .new-landing-page .transaction-text {
+    order: 2;
+    -webkit-order: 2;
+  }
+
+  .new-landing-page .right-side {
+    order: 1;
+    -webkit-order: 1;
+  }
+
+  .new-landing-page .right-side {
+    padding: 0px;
+  }
+
+  .new-landing-page .foreigncurrency.bg-blue .fieldrow .equl {
+    display: none;
+  }
+
+  .new-landing-page .paddingright {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .new-landing-page .paddingleft {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .new-landing-page .foreigncurrency.bg-blue .innerbox h2 {
+    padding-top: 0;
+  }
+/*order address*/
+  .frb.frb-primary {
+    width: 100%;
+    margin: 0 0 10px;
+    min-width: 60px;
+    height: 100%;
+  }
+.frb.frb-primary label, 
+.frb.frb-primary input[type="radio"]:checked ~ label {
+    padding: 10px 0;
+  }
+
+  .paymentstep .pickdelivery .pickuploca {
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+
+  .paymentstep .pickdelivery .pickuploca ul.list-address label {
+    font-size: 14px;
+  }
+
+  .frb input[type="radio"] ~ label:before {
+    left: 10px;
+    font-size: 17px;
+  }
+
+  .frb.frb-primary label {
+    padding-left: 32px !important;
+  }
+
+  body>span.select2-container.select2-container--default.select2-container--open {
+    right: 44% !important;
+    left: auto !important;
+  }
+
+  .orderstep .myorder .fieldrow {
+    width: 100%;
+    position: relative;
+  }
+
+  .select2-dropdown {
+    margin-left: -332px !important;
+  }
+ 
+}
+
+@media only screen and (max-width: 767px) {
+  .sec-full .padd-rem {
+    margin-bottom: 0px;
+  }
+
+  .travel-top-txt {
+    padding: 0 0px 30px;
+  }
+
+  .orderstep .myorder .sec-full .addbtn {
+    margin-top: 0px;
+  }
+
+  .sec-full h4.center-txt {
+    text-align: left;
+  }
+
+  .rate-change {
+    text-align: left;
+  }
+
+  .buycurrencyBlock .contactform .commonform {
+    padding: 30px 20px;
+  }
+
+  .orderstep .myorder .sec-full .fieldrow {
+    height: auto;
+    margin: 0px;
+  }
+
+  .orderstep .myorder .sec-full .padd-rem:nth-child(4) .fieldrow {
+    height: auto;
+  }
+
+  .orderstep .myorder .sec-full .radiobtns {
+    height: auto;
+    padding: 0;
+    margin: 0px;
+  }
+
+  .commonform_first .ratelist-order .form-div .radio {
+    margin: 0px;
+  }
+
+  .ratelist-order .rate-list {
+    height: auto;
+  }
+
+  .footer ul li {
+    width: 33%;
+  }
+
+  .col-lg-3.col-md-3.col-sm-6.col-xs-6.rep-sec-f {
+    width: 100%;
+  }
+
+  .footer ul li p {
+    width: 350px;
+  }
+
+  .reviewconfirm .rbttn {
+    margin-top: 16px;
+    position: static;
+    float: right;
+    background-color: #2b3185;
+    margin-top: 28px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 10px 78px 10px 36px;
+    text-transform: uppercase;
+    border-radius: 52px;
+    -moz-border-radius: 52px;
+    -webkit-border-radius: 52px;
+    width: auto;
+  }
+
+  .nextbtn {
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+  }
+
+  .partners-img img {
+    height: 85px;
+  }
+
+  #return-to-top {
+    bottom: 55px;
+  }
+
+  .dropdown-content {
+    top: 50px;
+    margin-right: 20px;
+  }
+
+  .deliveredcal .col-xs-6 {
+    width: 100%;
+  }
+
+  .custcol {
+    width: 100% !important;
+  }
+
+  .orderstep .myorder label {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+
+  .container, .foreigncurrency .container, .orderconts .container, .modal-sign .modal-dialog {
+    width: auto;
+  }
+
+  header {
+    padding: 20px 0;
+  }
+
+  header .logo {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 20px;
+  }
+
+  .custnav {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .custnav .menus {
+    top: 130px;
+  }
+
+  .ctitle h3 {
+    font-size: 30px;
+  }
+
+  .howitworks .services .servicesbox {
+    padding-top: 35px;
+  }
+
+  .howitworks .services .servicesbox h4 {
+    margin: 25px 0 22px;
+  }
+
+  .content .continner .info {
+    width: 76%;
+  }
+
+  .testimonials .video {
+    height: auto;
+  }
+
+  .orderconts .orderstep .custtab > li > a::after, .orderconts .orderstep .custtab > li:nth-child(2) > a::before, .orderconts .orderstep .custtab > li:nth-child(3) > a::before {
+    display: none !important;
+  }
+
+  .orderconts .orderstep .custtab > li:nth-child(2) {
+    width: 50%;
+  }
+
+  .orderconts .orderstep .custtab > li:nth-child(3) {
+    width: 39.7%;
+  }
+
+  .orderstep .myorder .summary .cashtable p span {
+    width: 72%;
+  }
+
+  .orderstep .myorder .fieldbox input {
+    padding: 6px 16px;
+  }
+
+  .paymentstep .opts ul li {
+    height: 122px;
+  }
+
+  .paymentstep .opts ul li p {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .paymentstep .pickdelivery .nav-tabs > li {
+    width: 49.3%;
+  }
+
+  .reviewconfirm .ordertable {
+    overflow-x: auto;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul.title li, .reviewconfirm .ordertable .tableinner .total span, .reviewconfirm .personaldetails .detailtable .tableinner ul.title li {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .reviewconfirm .ordertable .tableinner {
+    width: 1098px;
+  }
+
+  .reviewconfirm .personaldetails .detailtable .tableinner {
+    padding-bottom: 15px;
+  }
+
+  .reviewconfirm .personaldetails .detailtable .tableinner ul .col3 {
+    width: 30%;
+  }
+
+  .reviewconfirm .personaldetails .detailtable .tableinner ul .col2 {
+    width: 40%;
+  }
+
+  .reviewconfirm .personaldetails .detailtable .tableinner ul.pinfo li {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .reviewconfirm .siginregister a {
+    width: 280px;
+  }
+
+  .reviewconfirm .addressbox .address {
+    width: 100%;
+  }
+
+  .reviewconfirm .addressbox .sameaddress {
+    width: 100%;
+    padding: 10px 0 0;
+  }
+
+  .checkboxbtn + label {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .modal-sign .modal-dialog .modal-body {
+    padding: 50px 25px 45px;
+  }
+
+  .ctitle2 span {
+    width: 50px;
+  }
+
+  .contactus .contactinner {
+    padding: 10px 60px;
+  }
+
+  .contactform .commonform {
+    padding: 0 40px 20px;
+  }
+
+  .mobileTable {
+    display: block;
+  }
+
+  table.mobileTable {
+    border: 0;
+  }
+
+  table.mobileTable thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table.mobileTable tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table.mobileTable td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  table.mobileTable td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table.mobileTable td:last-child {
+    border-bottom: 0;
+  }
+
+  .reviewconfirm .ordertable .tableinner {
+    width: 100%;
+  }
+
+  .reviewconfirm .ordertable .tableinner ul {
+    display: none;
+  }
+
+  table.mobileTable {
+    border: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    border-bottom: none;
+  }
+
+  table.mobileTable tr {
+    background-color: #f8f8f8;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: .35em;
+  }
+
+  table.mobileTable th,
+  table.mobileTable td {
+    padding: .625em;
+    text-align: right;
+  }
+
+  table.mobileTable th {
+    font-size: 14px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  table.mobileTable tbody {
+    display: block;
+  }
+
+  .reviewconfirm .ordertable .tableinner .total {
+    margin: 0;
+    border-top: 0;
+    padding-top: 3px;
+  }
+
+  a.prvsbtn.btn {
+    display: block;
+    float: left;
+    background-color: #2b3185;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 10px 25px 10px 50px;
+    text-transform: uppercase;
+    background-image: url(../images/btn-arrow-back.png);
+    background-repeat: no-repeat;
+    background-position: 15% 50%;
+    border-radius: 52px;
+    -moz-border-radius: 52px;
+    -webkit-border-radius: 52px;
+  }
+
+  a.prvsbtn.btn:hover {
+    background-color: #fecb1e;
+    color: #2b3185;
+    background-position: 10% 50%;
+    background-image: url(../images/btn-arrow-back.png);
+  }
+
+  .bs-slide {
+    margin-bottom: 20px;
+  }
+
+  .buycurrencyinner {
+    padding: 30px 0;
+  }
+
+  .buycurrencySection h2.ctitle2 {
+    padding-left: 15px;
+  }
+
+  .buycurrencylist ul {
+    padding-left: 0;
+  }
+
+  .buycurrencylist p {
+    padding-left: 0;
+  }
+
+  .buycurrencySection .buycurrencylist h2.ctitle2 {
+    padding-left: 0;
+  }
+
+  .pickuptab .custdate {
+    width: 100%;
+  }
+
+  .paymentstep .pickdelivery .deliveryinfo .deliveredcal .col-xs-6 {
+    padding-left: 0;
+    padding-right: 5px;
+  }
+
+  a.nextbtn.btn.nextbtnmain {
+    display: none;
+  }
+
+  .custcol {
+    position: static;
+  }
+
+  .orderstep .myorder .fieldrow .cancel {
+    left: auto;
+    top: 9%;
+  }
+
+  .orderstep .myorder .equl {
+    left: 18px;
+  }
+
+  .orderstep .myorder .equl {
+    display: none;
+  }
+
+  a.nextbtn.btn.nextbtnmain {
+    position: static;
+    width: auto;
+    margin: 10px 0 0;
+    font-size: 16px;
+    padding: 10px 50px 10px 24px;
+    text-align: left;
+    border-radius: 100px;
+    background-position: 90% 50%;
+  }
+
+  .reviewconfirm .rbttn {
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    text-align: center;
+  }
+
+  .faqs.deliverywork {
+    padding: 0;
+  }
+
+  .mobnopadding {
+    padding: 0;
+  }
+
+  .client-top-txt p {
+    padding: 0 10px;
+  }
+
+  .cus-video-pop .modal-dialog {
+    width: 90%;
+  }
+
+  .client-video {
+    height: 350px;
+  }
+
+  .cus-review {
+    min-height: auto;
+  }
+
+  .rev-header {
+    min-height: auto;
+  }
+
+  .about-name {
+    margin-bottom: 30px;
+  }
+
+  .about-name h3 {
+    font-size: 20px;
+  }
+
+  .about-img img {
+    width: 300px;
+  }
+
+  .testimonials-area {
+    margin-top: 0;
+  }
+
+  .about-images {
+    margin: 20px 0px 0;
+  }
+
+  .about-name.space-remove {
+    margin-bottom: 0;
+  }
+
+  .review-section {
+    margin: 20px 0px 0px;
+  }
+
+  .blog-para {
+    height: auto;
+  }
+
+  .new-landing-page .pay-transaction ul.list-style li {
+    width: 50%;
+  }
+
+  .new-landing-page .ctitle2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .new-landing-page .pay-transaction .ctitle2 span {
+    margin: 10px 10px;
+  }
+
+  .new-landing-page .pay-transaction .innerbox h2 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .contactus {
+    padding: 20px 0 40px;
+  }
+
+  .map {
+    margin-top: 40px;
+  }
+
+  .new-landing-page .ratelist-order-droper .bootstrap-select.btn-group li a span.text {
+    white-space: normal;
+    font-size: 14px;
+  }
+
+  body>span.select2-container.select2-container--default.select2-container--open {
+    right: 308px !important;
+  }
+
+  .custcol {
+    width: 100% !important;
+    padding: 0px;
+  }
+
+  .select2-dropdown {
+    margin-left: 0 !important;
+  }
+
+  p.height-custom {
+    min-height: auto;
+    font-size: 16px !important;
+  }
+
+  .bpay {
+    font-size: 14px;
+  }
+
+  a.addbtn.add_fields-btn.trav-card {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .add-fields-button {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+  .content .continner .cicon4 {
+    background-image: url(../images/forma-1.png);
+    background-size: auto;
+  }
+
+  .content .continner .cicon5 {
+    background-image: url(../images/secure.png);
+    background-size: auto;
+  }
+
+  .content .continner .cicon6 {
+    background-image: url(../images/compare.png);
+    background-size: auto;
+  }
+
+  .adelaide .ade .continner {
+    padding: 0px;
+  }
+
+  .adelaide .ade .continner .info {
+    width: 100%;
+  }
+
+  .adelaide .ade .continner .cicon {
+    width: 141px;
+    height: 141px;
+  }
+
+  .orderstep .myorder .equl {
+    top: 12.5%;
+  }
+
+  .foreigncurrency .fieldcol {
+    padding: 0 10px;
+  }
+
+  .buybtn {
+    width: 100%;
+  }
+
+  .bestratepart h2 br {
+    display: none;
+  }
+
+  .content {
+    padding: 70px 0 57px;
+  }
+
+  .content h2 {
+    font-size: 32px;
+  }
+
+  .content .continner {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .content .continner .cicon {
+    float: none;
+    display: inline-block;
+    clear: both;
+  }
+
+  .content .continner .info {
+    width: 100%;
+    padding: 15px 0 0;
+  }
+
+  .content .continner .info p {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .testimonials {
+    padding-bottom: 80px;
+  }
+
+  .startedpart .commonform form {
+    margin-top: 10px;
+  }
+
+  .footer ul li p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .orderconts {
+    padding-bottom: 80px;
+    padding-top: 10px;
+  }
+
+  .orderconts h2 {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 22px;
+  }
+
+  .orderstep .myorder .fieldbox {
+    width: 183px;
+  }
+
+  .orderstep .myorder .fieldbox input {
+    width: 100px;
+  }
+
+  .orderstep .myorder .fieldbox select {
+    background-size: 12px auto;
+  }
+
+  .orderstep .myorder .notes .custfield {
+    width: 100%;
+  }
+
+  .orderstep .myorder .summary .cashtable p span {
+    width: 64%;
+  }
+
+  .paymentstep .pickdelivery .nav-tabs > li {
+    width: 49.2%;
+  }
+
+  .paymentstep .pickdelivery .nav-tabs > li > a {
+    font-size: 16px;
+  }
+
+  .paymentstep .pickdelivery .deliveryinfo .info {
+    padding: 23px 20px;
+  }
+
+  .paymentstep .pickdelivery .deliveryinfo .deliveredcal .msgtext {
+    font-size: 18px;
+    padding-left: 30px;
+  }
+
+  .paymentstep .opts ul li {
+    width: 165px;
+    height: 98px;
+    margin: 20px 20px 0 0;
+  }
+
+  .paymentstep .opts ul li label {
+    width: 163px;
+    height: 96px;
+  }
+
+  .paymentstep .opts ul li img {
+    width: 74px;
+  }
+
+  .paymentstep .opts ul li p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 29px;
+  }
+
+  .paymentstep .pickdelivery .nav-tabs > li {
+    width: 50%;
+    margin: 0 0 5px;
+  }
+
+  .paymentstep .pickdelivery .pickuploca p, .paymentstep .pickdelivery .deliveryinfo .deliveredcal .msg {
+    font-size: 18px;
+  }
+
+  .paymentstep .pickdelivery .deliveryinfo .info p {
+    font-size: 16px;
+    background-size: 9px auto !important;
+  }
+
+  .paymentstep .pickdelivery .deliveryinfo .info h3 {
+    font-size: 18px;
+    background-size: 19px auto;
+    padding-right: 15px;
+  }
+
+  .reviewconfirm .personaldetails .detailtable {
+    overflow-x: scroll;
+  }
+
+  .reviewconfirm .personaldetails .detailtable .tableinner {
+    width: 590px;
+  }
+
+  .reviewconfirm .personaldetails .edit {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .reviewconfirm .siginregister a {
+    width: 49%;
+    font-size: 22px;
+  }
+
+  .modal-sign .modal-dialog .modal-body {
+    padding: 40px 10px 30px;
+  }
+
+  .modal-sign .leftrmbr, .modal-sign .rightrmbr {
+    width: 100%;
+    float: left;
+  }
+
+  .modal-sign .form-control {
+    height: 40px;
+  }
+
+  .modal-sign label, .modal-sign .reginote, .modal-sign .file-note, .input-filefield .inputfile-6 + label strong {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .modal-sign .close {
+    background-size: 10px auto !important;
+    height: 30px;
+    right: 8px;
+    top: 8px;
+    width: 30px;
+  }
+
+  .modal-sign .leftrmbr label .checkmark, .modal-sign .rightrmbr label .checkmark {
+    top: 5px;
+  }
+
+  .modal-sign .leftrmbr label, .modal-sign .rightrmbr label {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .safepart {
+    text-align: center;
+  }
+
+  .safepart h3:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .clientsay {
+    text-align: center;
+  }
+
+  .bestratepart {
+    text-align: center;
+  }
+
+  .bestratepart h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .orderpage .copyright {
+    margin-bottom: 53px;
+  }
+
+  .orderconts .orderbox {
+    padding-bottom: 10px;
+  }
+
+  .orderconts .orderstep .custtab > li > a {
+    font-size: 12px;
+  }
+
+  .ctitle2 span {
+    margin-top: 14px;
+  }
+
+  .contactform .cancelbtn {
+    margin-right: 10px;
+  }
+
+  .contactform .cbttn {
+    padding: 14px 40px;
+  }
+
+  .map {
+    height: 310px;
+  }
+
+  .faqpage .faqs .question .title {
+    padding-left: 20px;
+  }
+
+  .affiliates {
+    display: block;
+    text-align: center;
+  }
+
+  .affiliates .partners-img {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .partners-img img {
+    height: 75px;
+  }
+
+  section.affiliatesBlock {
+    padding-bottom: 50px;
+  }
+
+  .nextbtn {
+    background-position: 80% 50%;
+  }
+
+  #mobilemenu {
+    margin-right: 10px;
+  }
+
+  .custnav .links a {
+    margin-left: 6px;
+  }
+
+  .orderstep .myorder .addbtn {
+    font-size: 18px;
+  }
+}
+
+@media(max-width:510px) {
+  .footer ul li {
+    width: 50%;
+  }
+
+  .footer ul li p {
+    width: 285px;
+  }
+
+  .new-landing-page section.video-sec.landing-page-video h2 {
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .travel-rate-tracker .contactform .checkbox_inline label {
+    margin: 0 0 0 15px;
+  }
+
+  .top-line {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .reviewconfirm .rbttn, a.prvsbtn.btn {
+    margin-top: 16px;
+    font-size: 14px;
+    padding: 12px 50px 12px 36px;
+  }
+
+  .nextbtn {
+    background-position: 90% 50%;
+  }
+
+  a.nextbtn.btn.nextbtnmain {
+    font-size: 14px;
+    padding: 12px 45px 12px 24px;
+  }
+
+  .orderconts .orderstep .custtab > li > a span {
+    display: none;
+  }
+
+  .orderconts .orderstep .custtab > li {
+    width: 100% !important;
+  }
+
+  .orderconts .orderstep .custtab > li.active > a span {
+    display: inline-block;
+  }
+
+  .orderconts .orderstep .custtab > li {
+    width: 13% !important;
+  }
+
+  .orderconts .orderstep .custtab > li.active {
+    width: 87% !important;
+  }
+
+  .orderconts .orderstep .custtab > li > a {
+    font-size: 12px;
+  }
+
+  .custnav .menus {
+    top: 70px;
+  }
+
+  .dropdown-content {
+    display: none;
+    top: 70px;
+  }
+
+  .main .adelaide .contactinner ul li {
+    margin-top: 15px;
+  }
+
+  header .logo img {
+    width: 275px;
+  }
+
+  .custnav .links a:first-child {
+    display: block;
+  }
+
+  .maintexts h2 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .foreigncurrency .field .custfield {
+    padding: 6px 90px 6px 15px;
+  }
+
+  .foreigncurrency .field span {
+    width: 75px;
+  }
+
+  .foreigncurrency .fieldcol label, .foreigncurrency .rate {
+    font-size: 18px;
+  }
+
+  .buybtn {
+    font-size: 20px;
+  }
+
+  .ctitle h3::before, .ctitle h3::after {
+    display: none;
+  }
+
+  .bestratepart .container {
+    padding-left: 25px;
+  }
+
+  .bestratepart h2 {
+    font-size: 32px;
+  }
+
+  .cbttn {
+    padding: 16px 44px;
+  }
+
+  .footer .flogo img {
+    width: 280px;
+  }
+
+  .footer .msgtext {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .orderconts .orderbox {
+    padding-top: 85px;
+  }
+
+  .orderconts h2 {
+    top: 30px;
+  }
+
+  .orderstep .myorder .fieldrow {
+    margin-top: 20px;
+  }
+
+  .orderstep .myorder label {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .orderstep .myorder select.custfield {
+    background-size: 12px auto;
+  }
+
+  .orderstep .myorder .fieldbox {
+    width: 100%;
+  }
+
+  .orderstep .myorder .fieldbox input {
+    width: 60%;
+  }
+  /* .orderstep .myorder .fieldbox select {width: 40%;} */
+  .orderstep .myorder select.custfield, .orderstep .myorder .fieldbox select, .orderstep .myorder .rate {
+    font-size: 15px;
+  }
+
+  .oph::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+
+  .oph::-moz-placeholder {
+    font-size: 15px;
+  }
+
+  .orderstep .myorder .radiobtns ul li {
+    margin-right: 18px;
+  }
+
+  .orderstep .myorder .radiobtns ul li label {
+    font-size: 15px;
+  }
+
+  [type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+    padding-left: 24px;
+  }
+
+  .orderstep .myorder .addbtn {
+    /* height:54px; */
+    width: 100%;
+     /* padding: 10px 0px 9px 0px; */
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-size: 16px auto;
+    background-position: 94.8% 50%;
+  }
+
+  .orderstep .myorder .summary {
+    padding-top: 40px;
+  }
+
+  .orderstep .myorder .summary .cashtable {
+    margin-top: 25px;
+    padding: 20px;
+  }
+
+  .orderstep .myorder .summary .cashtable h4 {
+    font-size: 18px;
+  }
+
+  .orderstep .myorder .summary .cashtable p {
+    font-size: 16px;
+    padding: 7px 0;
+  }
+
+  .orderstep .myorder .summary .cashtable .total {
+    font-size: 18px;
+  }
+
+  .orderstep .myorder .summary .cashtable p span {
+    width: 50%;
+  }
+
+  .orderstep .myorder .summary .msg {
+    font-size: 16px;
+  }
+
+  .orderconts .faqbox {
+    padding: 20px;
+  }
+
+  .reviewconfirm .siginregister a {
+    width: 49%;
+    margin: 5px 0 0 !important;
+  }
+
+  .rbttn {
+    padding-right: 66px;
+  }
+
+  .custdate {
+    width: auto;
+  }
+
+  .nextbtn, .rbttn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 35px 15px 15px;
+    font-size: 16px;
+  }
+
+  .modal-sign .modal-dialog .modal-content {
+    padding: 10px;
+  }
+
+  .modal-sign .modal-dialog .modal-body {
+    padding: 30px 0px 30px;
+  }
+
+  .modal-sign .form-title {
+    font-size: 30px;
+    padding-bottom: 25px;
+  }
+
+  .modal-sign .btn-submitmodel .btn {
+    width: 100%;
+    text-align: center;
+    padding: 10px 15px;
+  }
+
+  .datepicker {
+    width: 100%;
+  }
+
+  .bootstrap-datetimepicker-widget table th.picker-switch {
+    font-size: 14px;
+  }
+
+  .table-condensed thead tr .dow, .bootstrap-datetimepicker-widget table td.day {
+    font-size: 12px;
+  }
+
+  .bootstrap-datetimepicker-widget table td.day {
+    width: 44px;
+    height: 44px;
+    line-height: 10px;
+  }
+
+  .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 12px 8px;
+  }
+
+  .ctitle2 span {
+    display: none;
+  }
+
+  .contactus .contactinner {
+    padding: 10px 0;
+  }
+
+  .contactus .contactinner ul li {
+    width: 100%;
+    min-height: 0;
+    margin-top: 25px;
+  }
+
+  .contactus .contactinner ul li .icon {
+    background-size: 34px auto;
+    width: 34px;
+    height: 36px;
+    margin-right: 12px;
+  }
+
+  .contactus .contactinner ul li .location {
+    background-size: 24px auto;
+  }
+
+  .contactus .contactinner ul li p {
+    letter-spacing: 1px;
+  }
+
+  .contactus .contactinner ul li p a {
+    margin-top: 2px;
+  }
+
+  .contactform .commonform {
+    padding: 20px;
+  }
+
+  .contactform .cbttn {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .faqpage .faqs .question .title {
+    padding-right: 28px;
+  }
+
+  .mobilelogo {
+    display: block;
+    width: 70% !important;
+    border-bottom: 0px solid #ebebeb !important;
+  }
+
+  .desktoplogo {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .paymentstep .opts ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .paymentstep .opts ul li label {
+    width: 115px;
+  }
+
+  .paymentstep .opts ul li .radiopt {
+    width: 100%;
+  }
+
+  .main .reviewconfirm .siginregister a {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .faqs .question .title {
+    font-size: 16px;
+  }
+
+  table.mobileTable th, table.mobileTable td {
+    padding: 4px;
+  }
+
+  .about .innerbox {
+    width: 100%;
+  }
+
+  a.prvsbtn.btn {
+    margin: 10px 0;
+    font-size: 15px;
+    padding: 10px 24px 10px 45px;
+  }
+
+  .innerbox .border {
+    padding: 0;
+  }
+
+  .about {
+    padding: 0;
+  }
+
+  .abouttext {
+    padding: 30px 15px;
+  }
+
+  .about h2 {
+    padding: 0 15px;
+  }
+
+  .innerbox h2 {
+    padding: 0;
+  }
+
+  .buycurrencyinner h2 {
+    font-size: 24px;
+  }
+
+  .buycurrencyBlock h3 {
+    font-size: 20px;
+  }
+
+  .billerPay .billerImage {
+    width: auto;
+  }
+
+  .billerDesc {
+    width: auto;
+  }
+
+  .paymentstep .pickdelivery {
+    padding: 30px 0 0;
+  }
+
+  .orderstep .myorder .notes {
+    margin-top: 0;
+  }
+
+  .orderstep .myorder .radiobtns label {
+    margin-top: 0;
+  }
+
+  .paymentstep .pickdelivery .deliveryinfo .deliveredcal .msg {
+    margin-bottom: 18px;
+  }
+
+  .paymentstep .pickdelivery .deliveryinfo .deliveredcal .msg1 {
+    margin-bottom: 18px;
+  }
+
+  .reviewconfirm .personaldetails {
+    padding: 35px 0 0;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  .commonform label {
+    font-size: 12px;
+  }
+
+  a.prvsbtn.btn {
+    background-size: 12px;
+  }
+
+  a.nextbtn.btn.nextbtnmain {
+    background-size: 12px;
+  }
+
+  .foreigncurrency.newcurrencyBlock .field select.form-control.custfieldhome {
+    padding: 0 12px 0 0;
+    background-position: 100% 55%;
+    background-size: 12px;
+  }
+
+  .newcurrencyBlock .textBlock h1 {
+    font-size: 30px;
+  }
+
+  .client-video .btn-primary {
+    width: 60px;
+  }
+
+  .client-video .home-video-title h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+
+  .about-img img {
+    width: 80%;
+  }
+
+  .innerbox.sinlge-blog .border {
+    padding: 0 0px 30px 0px;
+  }
+
+  .new-landing-page  .pay-transaction ul.list-style li {
+    width: 100%;
+  }
+
+  .new-landing-page  nav ul.menus li.mobile span {
+    float: right;
+  }
+
+  .new-landing-page .links {
+    display: none;
+  }
+
+  .buycurrencyinner h2 {
+    font-size: 20px;
+  }
+
+  .redrate-exchange-tab2 ul.nav.nav-tabs > li > a:after {
+    width: 0;
+  }
+
+  .redrate-exchange-tab2 ul.nav.nav-tabs {
+    display: block !important;
+  }
+ /**custom check btn*/
+
+}
+
+@media(max-width:420px) {
+  .new-landing-page .foreigncurrency.bg-blue {
+    padding: 20px;
+  }
+
+  .new-landing-page .foreigncurrency.bg-blue .innerbox h2 {
+    font-size: 18px;
+  }
+}
+
+@media(max-width:375px) {
+  .footer ul li p {
+    width: 215px;
+  }
+
+  .billerPay .billerImage {
+    margin-right: 0;
+  }
+
+  .billerDesc {
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  table.mobileTable td {
+    font-size: 11px;
+  }
+
+  .reviewconfirm .ordertable .tableinner .total span {
+    font-size: 12px;
+  }
+
+  .orderstep .myorder .fieldrow .cancel {
+    right: 6px;
+  }
+
+  a.nextbtn.btn.nextbtnmain {
+    font-size: 12px;
+    padding: 12px 45px 12px 24px;
+  }
+
+  .reviewconfirm .rbttn {
+    font-size: 13px;
+    padding: 12px 40px 12px 36px;
+  }
+
+  a.prvsbtn.btn {
+    font-size: 12px;
+    padding: 12px 25px 12px 36px;
+  }
+
+  .buycurrencyBlock .sec-full p {
+    font-size: 14px;
+  }
+
+  .orderstep .myorder .sec-full .addbtn {
+    height: 54px;
+    width: 100%;
+    padding: 10px 0px 9px 5px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-size: 16px auto;
+    background-position: 94.8% 50%;
+  }
+
+  .travel-rate-tracker .orderconts h2 {
+    font-size: 22px !important;
+  }
+
+  .orderstep .myorder .sec-full .fieldrow {
+    padding: 10px 20px;
+  }
+
+  .buycurrencyBlock .sec-full .pickupstore .msg {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .travel-rate-tracker .contactform .checkbox_inline label {
+    font-size: 12px;
+    margin-top: 4px;
+    padding: 0 0 0 5px;
+  }
+
+  .buycurrencySection h2.ctitle2 {
+    font-size: 22px;
+  }
+
+  .orderstep .myorder .sec-full .rate {
+    font-size: 14px;
+  }
+
+  .testimonials-area {
+    margin-top: 50px;
+  }
+
+  .rev-rating img {
+    width: 100px;
+  }
+
+  .about-img img {
+    width: 90%;
+  }
+
+  .contactus {
+    padding: 20px 0 20px;
+  }
+
+  .travel-rate-tracker .buycurrencyinner {
+    padding: 30px 0 0;
+  }
+
+  .buycurrencyinner {
+    padding: 30px 0 0;
+  }
+
+  header .logo img {
+    width: 100%;
+  }
+
+  .checkmark {
+    left: 15px;
+  }
+
+  .orderstep .myorder .addbtn {
+    padding-right: 32px !important;
+    text-align: left;
+  }
+}
+
+@media(max-width:320px) {
+  header .logo img {
+    width: 220px;
+  }
+
+  .billerPay {
+    display: block;
+    text-align: center;
+  }
+
+  .billerDesc li {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  a.prvsbtn.btn {
+    font-size: 11px;
+  }
+
+  a.nextbtn.btn.nextbtnmain {
+    font-size: 11px;
+  }
+
+  .orderstep .myorder .fieldrow .cancel {
+    margin-top: -7px;
+  }
+
+  a.nextbtn.btn.nextbtnmain {
+    padding: 12px 50px 12px 24px;
+  }
+
+  .reviewconfirm .rbttn, a.prvsbtn.btn {
+    padding: 12px 20px 12px 36px;
+  }
+
+  .newcurrencyBlock .textBlock h1 {
+    font-size: 26px;
+  }
+}

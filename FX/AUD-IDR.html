@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0" />
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/html5.js"></script>
+        <!-- ALL CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <!-- ALL SCRIPT -->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollzip.js"></script>
+        <script type="text/javascript" src="js/all-style.js"></script>
+    </head>
+    <body>
+        <div class="main homepage">
+            <!-- START HEADER PART -->
+            <header class="innerheader">
+                <div class="container">
+                    <div class="pull-left logo desktoplogo"><h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1></div>
+                    <nav class="pull-right custnav">
+                        <div id="mobilemenu"></div><div class="pull-left logo mobilelogo"><h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1></div>
+                        <ul class="menus">
+                            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                            <li><a href="index.html#whychoosefx">Why us</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="deliverywork.html">Home Delivery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faq.html">FAQ</a></li>                       
+                            <li class="mobileb"><a href="#">Blog</a></li> 
+                            <li class="mobile"><a href="javascript:void(0)" onclick="curFunction()" class="dropbtne" >Buy Currency <img src="images/arrow-down.png" alt="" /></a></li>            
+                            <div id="curDropdown" class="dropdown-contente">            
+                                <li class="smobile"><a href="AUD-EUR.html">Euro</a></li>            
+                                <li class="smobile"><a href="AUD-GBP.html">British Pounds</a></li>            
+                                <li class="smobile"><a href="AUD-IDR.html">Indonesian Rupiah</a></li>
+                                <li class="smobile"><a href="AUD-JPY.html">Japanese Yen</a></li>  
+                                <li class="smobile"><a href="AUD-NZD.html">New Zealand Dollars</a></li>             
+                                <li class="smobile"><a href="AUD-USD.html">US Dollars</a></li>              
+                            </div>                      
+                            <li class="mobile"><a href="javascript:void(0)" onclick="myFunctione()" class="dropbtne" >AUSTRALIA WIDE <img src="images/arrow-down.png" alt="" /></a></li>  <div id="myDropdowne" class="dropdown-contente">
+                                <li class="smobile"><a href="sydney.html">Sydney</a></li>
+                                <li class="smobile"><a href="melbourne.html">Melbourne</a></li>
+                                <li class="smobile"><a href="brisbane.html">Brisbane</a></li>           
+                                <li class="smobile"><a href="adelaide.html">Adelaide</a></li>           
+                                <li class="smobile"><a href="perth.html">Perth</a></li>           
+                                <li class="smobile"><a href="wollongong.html">Wollongong</a></li>           
+                            </div>
+                        </ul>
+                        <div class="links">           
+                            <a onclick="myFunctione1()" class="dropbtn">Buy Currency</a>
+                            <div id="myDropdowne1" class="dropdown-content">            
+                                <a href="AUD-EUR.html">Euro</a>           
+                                <a href="AUD-GBP.html">British Pounds</a>           
+                                <a href="AUD-IDR.html">Indonesian Rupiah</a>
+                                <a href="AUD-JPY.html">Japanese Yen</a> 
+                                <a href="AUD-NZD.html">New Zealand Dollars</a>              
+                                <a href="AUD-USD.html">US Dollars</a>             
+                            </div>
+                            <a href="#" onclick="myFunction()" class="dropbtn">AUSTRALIA WIDE</a>           
+                            <div id="myDropdown" class="dropdown-content">  
+                                <a href="sydney.html">Sydney</a>
+                                <a href="melbourne.html">Melbourne</a>
+                                <a href="brisbane.html">Brisbane</a>          
+                                <a href="adelaide.html">Adelaide</a>            
+                                <a href="perth.html">Perth</a>            
+                                <a href="wollongong.html">Wollongong</a>            
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- END HEADER PART -->
+             <section class="foreigncurrency newcurrencyBlock">
+                <div class="container">
+                    <div class="textBlock">
+                            <h1>Great <span class="yellowtext">Rates</span> at your convenience</h1>
+                        </div>
+                    <div class="col-xs-12 innerbox">
+                        <h2>Buy Foreign Currency</h2>
+                        <form action="#">
+                            <div class="col-xs-12 col-sm-12 col-md-9 fieldrow">
+                                <div class="col-md-6 col-sm-12 col-xs-12 fieldcol">
+                                    <label>Australian Dollar Amount</label>
+                                    <div class="col-xs-12 field fix">
+                                        <input type="tel" id="aud_currency" class="form-control custfield fix" value="5" />
+                                        <span><select class="form-control custfieldhome" id="foreign_currency_select">
+                                                <option value="USD" selected>AUD</option>
+                                                <option value="EUR">EUR</option>
+                                                <option value="SEK">SEK</option>
+                                            </select></span>
+                                    </div>
+                                </div>
+                                <div class="equl">=</div>
+                                <div class="col-md-6 col-sm-12 col-xs-12 fieldcol">
+                                    <label>Foreign Currency Amount</label>
+                                    <div class="col-xs-12 field">
+                                        <input type="tel" id="foreign_currency" class="form-control custfield" value="4" />
+                                        <span><select class="form-control custfieldhome" id="foreign_currency_select">
+                                                <option value="USD" selected>USD</option>
+                                                <option value="EUR">EUR</option>
+                                                <option value="SEK">SEK</option>
+                                            </select></span>
+                                    </div>
+                                </div>
+                                <p class="rate">1 USD = 0.85 Euro</p>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-12 col-md-3 newcurrency_btn">
+                                <label>&nbsp;</label>
+                                <button class="buybtn" onClick="orderPage();  return false;">BUY CURRENCY</button></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="buycurrencySection">
+                <div class="container">
+                    <h2 class="ctitle2"><span class="line"></span>AUD / IDR</h2>
+                    <div class="col-xs-12">
+                        <div class="buycurrencyinner">
+                            <h2>Best Rates for IDR Currency Exchange in Australia</h2>
+
+                            <div class="buycurrencyBlock">
+                                <h3>Do You Need To Buy IDR In A Hurry?</h3>
+                                <p>Traveling is a great way to learn more about the world and to enjoy different experiences. You do have to manage your money, however, and this begins with understanding how currency exchanges work. We’re here to help.</p>
+                                <h3>Do You Want To Know The Best Exchange Rates? </h3>
+                                <p>Start by considering the currency calculator we have above. It’s there to give you the best overview of prices and to empower you with a unique lock-in feature. The challenge with currencies is that they change. You might regret it soon if you find great rates today and don’t secure them before your trip. </p>
+                                <h3>Get Your Rupiah In These 3 Easy Steps: </h3>
+
+                                <div class="easySteps">
+                                    <div class="col-sm-4">
+                                        <img src="images/icon-1.png" alt="icon"/>
+                                        <h4> Be sure to first get a personal account.</h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/icon-2.png" alt="icon"/>
+                                        <h4>Find the rates you need, and then select the amount of that currency you want to buy.</h4>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <img src="images/icon-3.png" alt="icon"/>
+                                        <h4>Your wait will be no more than 5 business days before the currency of your choosing arrives at your doorstep or P.O. Box. It’s that easy.</h4>
+                                    </div>
+                                </div>
+
+                                <p>It’s important that you move with a little urgency. We guarantee your rates but only during the times when you submit them. Don’t wait too long just to find out that prices have gone up and that your cost has too. Remember that you can make a purchase today and never have to leave home. The money comes to you.</p>
+
+                                <h3>How Much Will It Cost In Total?</h3>
+                                <p>Start planning the itinerary of your trip in order to get a better trajectory on cost. The basic factors to consider are the amount of time you’ll be gone for and the type of activities you see yourself engaged in.</p>
+
+                                <p>This equation has also been effective for travelers: Rp995.000.00/person/day. </p>
+
+
+                                <div class="buycurrencylist">
+                                    <h2 class="ctitle2"><span class="line"></span>Average Hotel Rates In Indonesia:</h2>
+                                    <ul>
+                                        <li> - Jakarta: Rp700.000.00 </li>
+                                        <li> - Surabaya: Rp752.888.00 </li>
+                                        <li> - Bandung: Rp371.000.00 </li>
+                                        <li> - Medan: Rp280.000.00 </li>
+                                    </ul>
+
+                                    <h2 class="ctitle2"><span class="line"></span>Taxi Ride From The Airport To The City: </h2>
+                                    <ul>
+                                        <li> - Jakarta: Rp185.000.00 (45mins/30km)</li>
+                                        <li> - Surabaya: Rp100.000.00 (30mins/20km) </li>
+                                        <li> - Bandung: Rp285.000.00 (180mins/200km) </li>
+                                        <li> - Medan: Rp130.000.00 (45mins/40km)  </li>
+                                    </ul>
+
+
+                                    <h2 class="ctitle2"><span class="line"></span>Museums:</h2>
+                                    <ul>
+                                        <li> - Museum Bank Indonesia: Rp5.000.00</li>
+                                        <li> - Taman Mini Indonesia Indah: Rp10.000.00 </li>
+                                        <li> - Jakarta History Museum: Rp5.000.00</li>
+                                        <li> - National Museum of Indonesia: Rp10.000.00</li>
+                                    </ul>
+
+                                    <p>Not everything will have to be expensive. In fact, some activities will give you memories for a lifetime and cost nothing. We’ve listed out some options to consider. Don’t feel like you have to spend every dime you bring with you.</p>
+
+                                    <h2 class="ctitle2"><span class="line"></span>Here’s A List Of Free Things To Do:</h2>
+                                    <ul>
+                                        <li> - Kuta Beach</li>
+                                        <li> - Borobudur Temple</li>
+                                        <li> - Pulau Weh Bay</li>
+                                        <li> - Tanah Lot Holy Site</li>
+                                        <li> - The Town of Ubud</li>
+                                        <li> - Lake Toba </li>
+                                        <li> - Bukit Lawang Trek</li>
+                                    </ul>
+
+                                    <div class="findRates">
+                                        <p>Do you want us to help you today? <a href="#">Click here</a> to check out our current rupiah rates. </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>	
+                </div>
+            </section>
+            <!-- START FOOTER  PART -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="flogo">
+                        <a href=""><img src="images/logo.png" alt=""/></a>
+                    </div>
+                    <p class="msgtext">
+                        Planning a trip? Need some help exchanging money or just have an enquiry? <br/>
+                        Contact us and we will get back to you with the right information.
+                    </p>
+                    <div class="main-footer">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Get in Touch</h3>
+                                <ul>
+                                    <li>
+                                        <a href="contact.html"><i class="fa fa-angle-right"></i>Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html"><i class="fa fa-angle-right"></i>FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="travelagent.html"><i class="fa fa-angle-right"></i>Travel Agent</a>
+                                    </li>
+                                    <li>
+                                        <a href="travel-rate-tracker.html"><i class="fa fa-angle-right"></i>Travel Rate Tracker</a>
+                                    </li>
+                                    <li>
+                                        <a href="cookie-consent.html"><i class="fa fa-angle-right"></i>Cookie Consent</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Cities</h3>
+                                <ul>
+                                    <li>
+                                        <a href="melbourne.html"><i class="fa fa-angle-right"></i>Melbourne</a>
+                                    </li>
+                                    <li>
+                                        <a href="sydney.html"><i class="fa fa-angle-right"></i>Sydney</a>
+                                    </li>
+                                    <li>
+                                        <a href="brisbane.html"><i class="fa fa-angle-right"></i>Brisbane</a>
+                                    </li>
+                                    <li>
+                                        <a href="adelaide.html"><i class="fa fa-angle-right"></i>Adelaide</a>
+                                    </li>
+                                    <li>
+                                        <a href="wollongong.html"><i class="fa fa-angle-right"></i>Wollongong</a>
+                                    </li>
+                                    <li>
+                                        <a href="perth.html"><i class="fa fa-angle-right"></i>Perth</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Buy Currency</h3>
+                                <ul>
+                                    <li>
+                                        <a href="AUD-EUR.html"><i class="fa fa-angle-right"></i>Euros</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-GBP.html"><i class="fa fa-angle-right"></i>British Pound</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-IDR.html"><i class="fa fa-angle-right"></i>Indian Rupiah</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-JPY.html"><i class="fa fa-angle-right"></i>Japanese Yen</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-NZD.html"><i class="fa fa-angle-right"></i>New Zealand Dollars</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-USD.html"><i class="fa fa-angle-right"></i>US Dollars</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <div class="footer-social">
+                                    <h3>Social Media</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>                            
+                                </div>
+                                <div class="footer-contact-us">
+                                    <h3>Contact Us</h3>
+                                    <ul>
+                                        <li>
+                                            <div class="ficon ficon1"></div>
+                                            <p>Shop 2/52-65 King William Street
+                                                Adelaide. SA 5000</p>
+                                        </li>
+                                        <li>
+                
+                                            <div class="ficon ficon2"></div>
+                                            <p><a href="tel:0882216565">(08)8221 6565</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="ficon ficon3"></div>
+                                            <p><a href="mailto:info@foreignxchange.com.au">info@foreignxchange.com.au</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="ficon ficon4"></div>
+                                            <p>Mon-Fri 10.00 A.M-6.00 P.M <br/>
+                                                Sat 11.00 A.M-4 P.M</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <p> &copy; Foreign Xchange. All Rights Reserved | <a class="link" href="#">Terms of Use</a> | <a class="link" href="#">Privacy Policy</a> | <a class="link" href="#">Why Us</a> | <a class="link" href="about.html">About Us</a> | <a class="link" href="#">Blog</a></p>
+                        <p class="mar-top">ABN 19 168 102 332</p>
+                    </div>
+                </div>
+            </footer>
+            <!-- END FOOTER PART -->
+        </div>
+        <!-- FOR SIGN IN MODAL -->
+        <div class="modal fade modal-sign" id="Modal-signin" role="dialog">
+            <div class="modal-dialog">                        
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&nbsp;</button>
+                        <h4 class="form-title">Sign In</h4>
+                        <div class="forminn clearfix">
+                            <div class="formfield">
+                                <div class="form-group">
+                                    <label>Username</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group last">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="leftrmbr">
+                                    <label>Remember me<input type="checkbox"><span class="checkmark"></span></label>                       
+                                </div>
+                                <div class="rightrmbr">
+                                    <label><a href="#">Forgot password?</a><input type="checkbox"><span class="checkmark"></span></label>
+                                </div>
+                                <div class="btn-submitmodel">
+                                    <input type="submit" value="SIGN IN" class="btn">
+                                </div>
+                                <div class="reginote"><span>Don’t have an account? <a class="openmodel-register" href="#" data-toggle="modal" data-target="#Modal-signup" data-dismiss="modal">Register</a></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOR SIGN UP MODAL -->
+        <div class="modal fade modal-sign" id="Modal-signup" role="dialog">
+            <div class="modal-dialog">                        
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&nbsp;</button>
+                        <h4 class="form-title">Register</h4>
+                        <div class="forminn clearfix">
+                            <div class="formfield">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Address</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group last input-filefield">
+                                    <label>Identification</label>
+                                    <input type="file" name="file-7[]" id="file-7" class="inputfile inputfile-6" data-multiple-caption="{count} files selected" multiple />
+                                    <label for="file-7"><strong> Choose File</strong><span></span></label>
+                                </div>
+                                <p class="file-note">Please upload a Driving Licence Or Passport for proof of identification.</p>
+                                <div class="btn-submitmodel">
+                                    <input type="submit" value="REGISTER" class="btn">
+                                </div>
+                                <div class="reginote"><span>Already registered? <a href="#">Sign in</a></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0" />
+        <title>Japan Travel Budget Guide for Individuals</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/html5.js"></script>
+        <!-- ALL CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <!-- ALL SCRIPT -->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollzip.js"></script>
+        <script type="text/javascript" src="js/all-style.js"></script>
+    </head>
+    <body>
+        <div class="main homepage">
+            <!-- START HEADER PART -->
+            <header class="innerheader">
+                <div class="container">
+                    <div class="pull-left logo desktoplogo"><h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1></div>
+                    <nav class="pull-right custnav">
+                        <div id="mobilemenu"></div><div class="pull-left logo mobilelogo"><h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1></div>
+                        <ul class="menus">
+                            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                            <li><a href="index.html#whychoosefx">Why us</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="deliverywork.html">Home Delivery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li class="mobileb"><a href="#">Blog</a></li>
+                            <li class="mobile"><a href="javascript:void(0)" onclick="curFunction()" class="dropbtne" >Buy Currency <img src="images/arrow-down.png" alt="" /></a></li>
+                            <div id="curDropdown" class="dropdown-contente">
+                                <li class="smobile"><a href="AUD-EUR.html">Euro</a></li>
+                                <li class="smobile"><a href="AUD-GBP.html">British Pounds</a></li>
+                                <li class="smobile"><a href="AUD-IDR.html">Indonesian Rupiah</a></li>
+                                <li class="smobile"><a href="AUD-JPY.html">Japanese Yen</a></li>
+                                <li class="smobile"><a href="AUD-NZD.html">New Zealand Dollars</a></li>
+                                <li class="smobile"><a href="AUD-USD.html">US Dollars</a></li>
+                            </div>
+                            <li class="mobile"><a href="javascript:void(0)" onclick="myFunctione()" class="dropbtne" >AUSTRALIA WIDE <img src="images/arrow-down.png" alt="" /></a></li>  <div id="myDropdowne" class="dropdown-contente">
+                                <li class="smobile"><a href="sydney.html">Sydney</a></li>
+                                <li class="smobile"><a href="melbourne.html">Melbourne</a></li>
+                                <li class="smobile"><a href="brisbane.html">Brisbane</a></li>
+                                <li class="smobile"><a href="adelaide.html">Adelaide</a></li>
+                                <li class="smobile"><a href="perth.html">Perth</a></li>
+                                <li class="smobile"><a href="wollongong.html">Wollongong</a></li>
+                            </div>
+                        </ul>
+                        <div class="links">
+                            <a onclick="myFunctione1()" class="dropbtn">Buy Currency</a>
+                            <div id="myDropdowne1" class="dropdown-content">
+                                <a href="AUD-EUR.html">Euro</a>
+                                <a href="AUD-GBP.html">British Pounds</a>
+                                <a href="AUD-IDR.html">Indonesian Rupiah</a>
+                                <a href="AUD-JPY.html">Japanese Yen</a>
+                                <a href="AUD-NZD.html">New Zealand Dollars</a>
+                                <a href="AUD-USD.html">US Dollars</a>
+                            </div>
+                            <a href="#" onclick="myFunction()" class="dropbtn">AUSTRALIA WIDE</a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="sydney.html">Sydney</a>
+                                <a href="melbourne.html">Melbourne</a>
+                                <a href="brisbane.html">Brisbane</a>
+                                <a href="adelaide.html">Adelaide</a>
+                                <a href="perth.html">Perth</a>
+                                <a href="wollongong.html">Wollongong</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- END HEADER PART -->
+            <section class="foreigncurrency newcurrencyBlock">
+                <div class="container">
+                    <div class="textBlock">
+                            <h1>Great <span class="yellowtext">Rates</span> at your convenience</h1>
+                        </div>
+                    <div class="col-xs-12 innerbox">
+                        <h2>Buy Foreign Currency</h2>
+                        <form action="#">
+                            <div class="col-xs-12 col-sm-12 col-md-9 fieldrow">
+                                <div class="col-md-6 col-sm-12 col-xs-12 fieldcol">
+                                    <label>Australian Dollar Amount</label>
+                                    <div class="col-xs-12 field fix">
+                                        <input type="tel" id="aud_currency" class="form-control custfield fix" value="5" />
+                                        <span><select class="form-control custfieldhome" id="foreign_currency_select">
+                                                <option value="USD" selected>AUD</option>
+                                                <option value="EUR">EUR</option>
+                                                <option value="SEK">SEK</option>
+                                            </select></span>
+                                    </div>
+                                </div>
+                                <div class="equl">=</div>
+                                <div class="col-md-6 col-sm-12 col-xs-12 fieldcol">
+                                    <label>Foreign Currency Amount</label>
+                                    <div class="col-xs-12 field">
+                                        <input type="tel" id="foreign_currency" class="form-control custfield" value="4" />
+                                        <span><select class="form-control custfieldhome" id="foreign_currency_select">
+                                                <option value="USD" selected>USD</option>
+                                                <option value="EUR">EUR</option>
+                                                <option value="SEK">SEK</option>
+                                            </select></span>
+                                    </div>
+                                </div>
+                                <p class="rate">1 USD = 0.85 Euro</p>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-3 newcurrency_btn">
+                                <label>&nbsp;</label>
+                                <button class="buybtn" onClick="orderPage();  return false;">BUY CURRENCY</button></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <h2 class="ctitle2"><span class="line"></span>Japan Travel Budget Guide for Individu</h2>
+                    <div class="col-xs-12 innerbox">
+                        <div class="border">
+                            <p>Japan is in the Pacific Ocean and located off the eastern coast of Asia. Its famous destinations include Tokyo, Kyoto and Osaka. Many people also visit Nara, Hakone and Shinjuku during their trip to Japan. The city has a rich history and is filled with shrines, temples, museums and garden parks.</p>
+                            <p>Before you visit Japan, do some research and decide what time of year you want to take your trip. There are certain times during the year that offer visitors a unique experience. For instance, some people choose to visit Japan in the spring when the cherry blossoms are in full bloom. </p>
+                            <p>Here are some tips on traveling to Japan regardless of the amount of money you want to spend: </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 innerbox aboutForeignXchange sinlge-blog">
+                        <div class="border">
+                            <h2>Budget</h2>
+                            <ul>
+                                <li><span class="lightText">Food & drinks</span>The street food in this city will cost you about $5.50 AUD per person with choices that include steamed pork buns, sweet fish waffles and hot sweet potatoes. Ramen vending machines are another choice for eating out and a standard bowl cost about $10 AUD. </li>
+                                <li><span class="lightText">Accommodation</span>Tourists sleep in hostels, camp and couch surf to find cheap accommodations in Japan. Sleeping in a <a href="https://www.tripadvisor.in/Hotels-g298184-c3-zff31-Tokyo_Tokyo_Prefecture_Kanto-Hotels.html" target="_blank"><u> capsule hotel </u></a> or economy hotel is also an option. However, if you are extremely limited with cash you may opt for sleeping in an internet café. These accommodations will range from free to about $63 AUD per night.</li>
+                                <li><span class="lightText">Getting around</span>Since you are traveling on a budget, public transportation is your best bet. The fare for a bus ride varies depending on the city you’re in and is calculated by zones. Taking the subway is a convenient and affordable way to get around, purchasing an unlimited ticket for the entire day will save you money too. </li>
+                                <li><span class="lightText">Alcohol</span>The average price for a beer in Japan is $7.50 AUD and a cocktail costs $10 AUD. Since you are on a budget, purchase your drinks at a vending machine instead of a bar. Visiting an izakaya will allow you to drink for cheap, it is a small restaurant that serves drinks for $3.36 AUD.</li>
+                                <li><span class="lightText">Going out</span> There is plenty to do in Japan at night with bars that only charge $3.70 AUD for a drink and food. Some bars have happy hours and others host an all you drink offer for $13 AUD. </li>
+                                <li><span class="lightText">Tourism</span> Purchasing a Grutt pass for sightseeing is a cheap way to get to see the museums and art galleries in the city. It costs $25 AUD and gives you discounts at over 80 facilities. <br/>The average cost for traveling on a budget is about $42 AUD per day providing that you do not spend money on lodging and always purchase the cheapest meals and drinks. </li>
+                            </ul>
+                        </div>
+                        <div class="border">
+                            <h2>Mid-range</h2>
+                            <ul>
+                                <li><span class="lightText">Food & drinks</span> Going out to dinner at a restaurant will cost about $27 AUD for two people. While drinking at a bar will vary depending on what you like to drink. A local meal cost about $3 AUD per plate. </li>
+                                <li><span class="lightText">Accommodation</span> Finding a <a href="https://www.expedia.com/Bali-Hotels-All-Inclusive-Hotel.0-0-d602651-tAllinclusiveHotel.Travel-Guide-Filter-Hotels" target="_blank"><u>mid-range hotel</u></a> is not difficult in Japan and will cost you about $212 AUD per night. These hotels have comfortable rooms with nice views and good amenities. They are usually close to transportation and may include washing machines. </li>
+                                <li><span class="lightText">Getting around</span> A Japan Rail pass ticket cost about $588 AUD and allows you travel between cities for 14 days. If you are traveling to various areas, purchasing a two-week pass will save you money and time. Each city has their own rail pass with packages and special tickets priced to match your desired destination. Renting a bicycle is another choice, and the price is about $19 AUD per day. </li>
+                                <li><span class="lightText">Alcohol</span> The Japanese take drinking seriously and consider it a form of bonding. The most common drinks are beer and sake. A glass of wine costs about $12.50 AUD and sake $7.50 AUD. Whiskey and other hard liquors vary in price. </li>
+                                <li><span class="lightText">Going out</span> There are cabaret shows, nightclubs, restaurants and karaoke bars in Japan. The amount you spend depends on where you go, and the city you visit. The price for cabaret shows begin at $76 AUD, and a night of karaoke can cost you $3.00 AUD to $6.00 AUD per time slot. </li>
+                                <li><span class="lightText">Tourism</span> There are tours available that can take you to major attractions and monuments. The price for your tour depends on the destination, for instance, a trip to Mt. Fuji costs about $198 AUD. A Kyoto rail tour costs approximately $413 AUD, and a visit to a temple costs $126 AUD. <br/>You spend an average of $305 AUD per day if you rent a bike every day without purchasing a rail ticket for two weeks. </li>
+                            </ul>
+                        </div>
+                        <div class="border">
+                            <h2>Splurge</h2>
+                            <ul>
+                                <li><span class="lightText">Food & drinks</span> If money is no limit, then you can visit the most expensive restaurants in Japan. You can spend well over $260 on a four-course meal with drinks. Some of the most extravagant places to eat are stationed in this city and a meal can cost up to $1,660 AUD. </li>
+                                <li><span class="lightText">Accommodation</span> The price for a <a href="https://www.telegraph.co.uk/travel/destinations/asia/japan/hotels/" target="_blank"><u> five-star resort and spa</u></a> begins at $657 AUD per night and typically includes a spa, pools, dining areas and lavish amenities. You get room service, concierge, free parking and transportation service available upon request. </li>
+                                <li><span class="lightText">Getting around</span> There are several ways for you to get around in Japan that include renting a car, taking a taxi or the railway. A car rental ranges from $62 AUD per day for a sub-compact car to $249 AUD for a van. </li>
+                                <li><span class="lightText">Alcohol</span> Japan has a plethora of bars with price ranges and cocktails to fit every budget. However, the price can vary depending on where you go to drink.  </li>
+                                <li><span class="lightText">Going out</span> The nightlife in Japan can be pricey and when you eat at a restaurant in the red-light district costs between $69-$75 AUD. Drink costs about $13 AUD and entry to nightclubs range between $20 AUD-$44 AUD. </li>
+                                <li><span class="lightText">Tourism</span> There are three-day tours available to Hiroshima that cost $554 AUD and private tours to Nagano that begin at $1,321 AUD. These tour groups usually pick you up and provide you with a tour guide. <br/> If you are splurging, you can spend well over $2,000 AUD in Japan this includes going to the most expensive restaurants, staying at a five-star resort and go out every night. </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="abouttext sinlge-blog-links">
+                        <h3>Links</h3>
+                        <ul>
+                            <li>
+                                <a target="_blank" href="https://www.tripzilla.com/japan-budget-where-to-eat-cheap/74199" >https://www.tripzilla.com/japan-budget-where-to-eat-cheap/74199 </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.lonelyplanet.com/japan/transport/getting-around/local-transport">https://www.lonelyplanet.com/japan/transport/getting-around/local-transport </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="http://allnightowt.com/how-to-party-japan-on-a-budget/">http://allnightowt.com/how-to-party-japan-on-a-budget/ </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://moneyinc.com/five-expensive-restaurants-japan/ ">https://moneyinc.com/five-expensive-restaurants-japan/ </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.tripadvisor.com/Tourism-g294232-Japan-Vacations.html ">https://www.tripadvisor.com/Tourism-g294232-Japan-Vacations.html </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.timeout.com/tokyo/bars-and-pubs/best-tokyo-bars ">https://www.timeout.com/tokyo/bars-and-pubs/best-tokyo-bars </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.tripadvisor.com/Hotels-g298184-c3-zff31-Tokyo_Tokyo_Prefecture_Kanto-Hotels.html ">https://www.tripadvisor.com/Hotels-g298184-c3-zff31-Tokyo_Tokyo_Prefecture_Kanto-Hotels.html </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.hotels.com/de726784-qu3/mid-range-hotels-tokyo-japan/?rffrid=sem.hcom.US.google.003.00.04.s.kwrd=c.256894759173.21792714159.183500319.1t1.dsa-460675969390.9073503..0.CjwKCAjwwdTbBRAIEiwAYQf_EzvLdjkNSJekN1D2S5qKQ9RCTfy00aA7-wQKydluFSmwSuDzgOHtfRoCthUQAvD_BwE.aw.ds&PSRC=G21&gclid=CjwKCAjwwdTbBRAIEiwAYQf_EzvLdjkNSJekN1D2S5qKQ9RCTfy00aA7-wQKydluFSmwSuDzgOHtfRoCthUQAvD_BwE&gclsrc=aw.ds ">https://www.hotels.com/de726784-qu3/mid-range-hotels-tokyo-japan/?rffrid=sem.hcom.US.google.003.00.04.s.kwrd=c.256894759173.21792714159.183500319.1t1.dsa-460675969390.9073503..0.CjwKCAjwwdTbBRAIEiwAYQf_EzvLdjkNSJekN1D2S5qKQ9RCTfy00aA7-wQKydluFSmwSuDzgOHtfRoCthUQAvD_BwE.aw.ds&PSRC=G21&gclid=CjwKCAjwwdTbBRAIEiwAYQf_EzvLdjkNSJekN1D2S5qKQ9RCTfy00aA7-wQKydluFSmwSuDzgOHtfRoCthUQAvD_BwE&gclsrc=aw.ds </a>
+                            </li>
+                            <!-- <li>
+                                <a target="_blank" href="94759173.21792714159.183500319.1t1.dsa-460675969390.9073503..0.CjwKCAjwwdTbBRAIEiwAYQf_EzvLdjkNSJekN1D2S5qKQ9RCTfy00aA7-">94759173.21792714159.183500319.1t1.dsa-460675969390.9073503..0.CjwKCAjwwdTbBRAIEiwAYQf_EzvLdjkNSJekN1D2S5qKQ9RCTfy00aA7- </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="wQKydluFSmwSuDzgOHtfRoCthUQAvD_BwE.aw.ds&PSRC=G21&gclid=CjwKCAjwwdTbBRAIEiwAYQf_EzvLdjkNSJekN1D2S5qKQ9RCTfy00aA7- ">wQKydluFSmwSuDzgOHtfRoCthUQAvD_BwE.aw.ds&PSRC=G21&gclid=CjwKCAjwwdTbBRAIEiwAYQf_EzvLdjkNSJekN1D2S5qKQ9RCTfy00aA7- </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="wQKydluFSmwSuDzgOHtfRoCthUQAvD_BwE&gclsrc=aw.ds ">wQKydluFSmwSuDzgOHtfRoCthUQAvD_BwE&gclsrc=aw.ds  </a>
+                            </li> -->
+                            <li>
+                                <a target="_blank" href="https://www.telegraph.co.uk/travel/destinations/asia/japan/hotels/ ">https://www.telegraph.co.uk/travel/destinations/asia/japan/hotels/ </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+           <!-- START FOOTER  PART -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="flogo">
+                        <a href=""><img src="images/logo.png" alt=""/></a>
+                    </div>
+                    <p class="msgtext">
+                        Planning a trip? Need some help exchanging money or just have an enquiry? <br/>
+                        Contact us and we will get back to you with the right information.
+                    </p>
+                    <div class="main-footer">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Get in Touch</h3>
+                                <ul>
+                                    <li>
+                                        <a href="contact.html"><i class="fa fa-angle-right"></i>Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html"><i class="fa fa-angle-right"></i>FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="travelagent.html"><i class="fa fa-angle-right"></i>Travel Agent</a>
+                                    </li>
+                                    <li>
+                                        <a href="travel-rate-tracker.html"><i class="fa fa-angle-right"></i>Travel Rate Tracker</a>
+                                    </li>
+                                    <li>
+                                        <a href="cookie-consent.html"><i class="fa fa-angle-right"></i>Cookie Consent</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Cities</h3>
+                                <ul>
+                                    <li>
+                                        <a href="melbourne.html"><i class="fa fa-angle-right"></i>Melbourne</a>
+                                    </li>
+                                    <li>
+                                        <a href="sydney.html"><i class="fa fa-angle-right"></i>Sydney</a>
+                                    </li>
+                                    <li>
+                                        <a href="brisbane.html"><i class="fa fa-angle-right"></i>Brisbane</a>
+                                    </li>
+                                    <li>
+                                        <a href="adelaide.html"><i class="fa fa-angle-right"></i>Adelaide</a>
+                                    </li>
+                                    <li>
+                                        <a href="wollongong.html"><i class="fa fa-angle-right"></i>Wollongong</a>
+                                    </li>
+                                    <li>
+                                        <a href="perth.html"><i class="fa fa-angle-right"></i>Perth</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Buy Currency</h3>
+                                <ul>
+                                    <li>
+                                        <a href="AUD-EUR.html"><i class="fa fa-angle-right"></i>Euros</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-GBP.html"><i class="fa fa-angle-right"></i>British Pound</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-IDR.html"><i class="fa fa-angle-right"></i>Indian Rupiah</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-JPY.html"><i class="fa fa-angle-right"></i>Japanese Yen</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-NZD.html"><i class="fa fa-angle-right"></i>New Zealand Dollars</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-USD.html"><i class="fa fa-angle-right"></i>US Dollars</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <div class="footer-social">
+                                    <h3>Social Media</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer-contact-us">
+                                    <h3>Contact Us</h3>
+                                    <ul>
+                                        <li>
+                                            <div class="ficon ficon1"></div>
+                                            <p>Shop 2/52-65 King William Street
+                                                Adelaide. SA 5000</p>
+                                        </li>
+                                        <li>
+
+                                            <div class="ficon ficon2"></div>
+                                            <p><a href="tel:0882216565">(08)8221 6565</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="ficon ficon3"></div>
+                                            <p><a href="mailto:info@foreignxchange.com.au">info@foreignxchange.com.au</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="ficon ficon4"></div>
+                                            <p>Mon-Fri 10.00 A.M-6.00 P.M <br/>
+                                                Sat 11.00 A.M-4 P.M</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <p> &copy; Foreign Xchange. All Rights Reserved | <a class="link" href="#">Terms of Use</a> | <a class="link" href="#">Privacy Policy</a> | <a class="link" href="#">Why Us</a> | <a class="link" href="about.html">About Us</a> | <a class="link" href="#">Blog</a></p>
+                        <p class="mar-top">ABN 19 168 102 332</p>
+                    </div>
+                </div>
+            </footer>
+            <!-- END FOOTER PART -->
+        </div>
+        <!-- FOR SIGN IN MODAL -->
+        <div class="modal fade modal-sign" id="Modal-signin" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&nbsp;</button>
+                        <h4 class="form-title">Sign In</h4>
+                        <div class="forminn clearfix">
+                            <div class="formfield">
+                                <div class="form-group">
+                                    <label>Username</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group last">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="leftrmbr">
+                                    <label>Remember me<input type="checkbox"><span class="checkmark"></span></label>
+                                </div>
+                                <div class="rightrmbr">
+                                    <label><a href="#">Forgot password?</a><input type="checkbox"><span class="checkmark"></span></label>
+                                </div>
+                                <div class="btn-submitmodel">
+                                    <input type="submit" value="SIGN IN" class="btn">
+                                </div>
+                                <div class="reginote"><span>Don’t have an account? <a class="openmodel-register" href="#" data-toggle="modal" data-target="#Modal-signup" data-dismiss="modal">Register</a></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOR SIGN UP MODAL -->
+        <div class="modal fade modal-sign" id="Modal-signup" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&nbsp;</button>
+                        <h4 class="form-title">Register</h4>
+                        <div class="forminn clearfix">
+                            <div class="formfield">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Address</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group last input-filefield">
+                                    <label>Identification</label>
+                                    <input type="file" name="file-7[]" id="file-7" class="inputfile inputfile-6" data-multiple-caption="{count} files selected" multiple />
+                                    <label for="file-7"><strong> Choose File</strong><span></span></label>
+                                </div>
+                                <p class="file-note">Please upload a Driving Licence Or Passport for proof of identification.</p>
+                                <div class="btn-submitmodel">
+                                    <input type="submit" value="REGISTER" class="btn">
+                                </div>
+                                <div class="reginote"><span>Already registered? <a href="#">Sign in</a></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

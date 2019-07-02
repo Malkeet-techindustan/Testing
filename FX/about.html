@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0" />
+        <title></title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/html5.js"></script>
+        <!-- ALL CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
+        <!-- ALL SCRIPT -->
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollzip.js"></script>
+        <script type="text/javascript" src="js/all-style.js"></script>
+    </head>
+    <body>
+        <div class="main homepage">
+            <!-- START HEADER PART -->
+            <header class="innerheader">
+                <div class="container">
+                    <div class="pull-left logo desktoplogo"><h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1></div>
+                    <nav class="pull-right custnav">
+                        <div id="mobilemenu"></div><div class="pull-left logo mobilelogo"><h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1></div>
+                        <ul class="menus">
+                            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                            <li><a href="index.html#whychoosefx">Why us</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="deliverywork.html">Home Delivery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faq.html">FAQ</a></li>                       
+                            <li class="mobileb"><a href="#">Blog</a></li> 
+                            <li class="mobile"><a href="javascript:void(0)" onclick="curFunction()" class="dropbtne" >Buy Currency <img src="images/arrow-down.png" alt="" /></a></li>            
+                            <div id="curDropdown" class="dropdown-contente">            
+                                <li class="smobile"><a href="AUD-EUR.html">Euro</a></li>            
+                                <li class="smobile"><a href="AUD-GBP.html">British Pounds</a></li>            
+                                <li class="smobile"><a href="AUD-IDR.html">Indonesian Rupiah</a></li>
+                                <li class="smobile"><a href="AUD-JPY.html">Japanese Yen</a></li>  
+                                <li class="smobile"><a href="AUD-NZD.html">New Zealand Dollars</a></li>             
+                                <li class="smobile"><a href="AUD-USD.html">US Dollars</a></li>              
+                            </div>                      
+                            <li class="mobile"><a href="javascript:void(0)" onclick="myFunctione()" class="dropbtne" >AUSTRALIA WIDE <img src="images/arrow-down.png" alt="" /></a></li>  <div id="myDropdowne" class="dropdown-contente">
+                                <li class="smobile"><a href="sydney.html">Sydney</a></li>
+                                <li class="smobile"><a href="melbourne.html">Melbourne</a></li>
+                                <li class="smobile"><a href="brisbane.html">Brisbane</a></li>           
+                                <li class="smobile"><a href="adelaide.html">Adelaide</a></li>           
+                                <li class="smobile"><a href="perth.html">Perth</a></li>           
+                                <li class="smobile"><a href="wollongong.html">Wollongong</a></li>           
+                            </div>
+                        </ul>
+                        <div class="links">           
+                            <a onclick="myFunctione1()" class="dropbtn">Buy Currency</a>
+                            <div id="myDropdowne1" class="dropdown-content">            
+                                <a href="AUD-EUR.html">Euro</a>           
+                                <a href="AUD-GBP.html">British Pounds</a>           
+                                <a href="AUD-IDR.html">Indonesian Rupiah</a>
+                                <a href="AUD-JPY.html">Japanese Yen</a> 
+                                <a href="AUD-NZD.html">New Zealand Dollars</a>              
+                                <a href="AUD-USD.html">US Dollars</a>             
+                            </div>
+                            <a href="#" onclick="myFunction()" class="dropbtn">AUSTRALIA WIDE</a>           
+                            <div id="myDropdown" class="dropdown-content">  
+                                <a href="sydney.html">Sydney</a>
+                                <a href="melbourne.html">Melbourne</a>
+                                <a href="brisbane.html">Brisbane</a>          
+                                <a href="adelaide.html">Adelaide</a>            
+                                <a href="perth.html">Perth</a>            
+                                <a href="wollongong.html">Wollongong</a>            
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- END HEADER PART -->
+            <section class="foreigncurrency newcurrencyBlock">
+                <div class="container">
+                    <div class="textBlock">
+                            <h1>Great <span class="yellowtext">Rates</span> at your convenience</h1>
+                        </div>
+                    <div class="col-xs-12 innerbox">
+                        <h2>Buy Foreign Currency</h2>
+                        <form action="#">
+                            <div class="col-xs-12 col-sm-12 col-md-9 fieldrow">
+                                <div class="col-md-6 col-sm-12 col-xs-12 fieldcol">
+                                    <label>Australian Dollar Amount</label>
+                                    <div class="col-xs-12 field fix">
+                                        <input type="tel" id="aud_currency" class="form-control custfield fix" value="5" />
+                                        <span><select class="form-control custfieldhome" id="foreign_currency_select">
+                                                <option value="USD" selected>AUD</option>
+                                                <option value="EUR">EUR</option>
+                                                <option value="SEK">SEK</option>
+                                            </select></span>
+                                    </div>
+                                </div>
+                                <div class="equl">=</div>
+                                <div class="col-md-6 col-sm-12 col-xs-12 fieldcol">
+                                    <label>Foreign Currency Amount</label>
+                                    <div class="col-xs-12 field">
+                                        <input type="tel" id="foreign_currency" class="form-control custfield" value="4" />
+                                        <span><select class="form-control custfieldhome" id="foreign_currency_select">
+                                                <option value="USD" selected>USD</option>
+                                                <option value="EUR">EUR</option>
+                                                <option value="SEK">SEK</option>
+                                            </select></span>
+                                    </div>
+                                </div>
+                                <p class="rate">1 USD = 0.85 Euro</p>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-12 col-md-3 newcurrency_btn">
+                                <label>&nbsp;</label>
+                                <button class="buybtn" onClick="orderPage();  return false;">BUY CURRENCY</button></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <h2 class="ctitle2"><span class="line"></span>About Us</h2>
+                    <div class="col-xs-12 innerbox">
+                        <div class="border">
+                            <p><span class="lightText">ForeignXchange.com.au,</span> a national currency exchange company specialising in Simplicity, Convenience and the Best Rates in the Market.</p>
+                            <p>Our founders Abhi and xyz cut their teeth in the industry by running a physical currency exchange store for ten years. The Foreignxchange.com.au online system and our lean operations team were developed using their expertise.</p>
+                            <p>We boast the best rates in the industry but that’s not all we do. Customer service is a core strength and one of the reasons we’ve been able to satisfy the money exchange needs of over 35,000 customers.</p>
+                            <p>We are regulated by <span class="lightText">AUSTRAC</span> and headquartered in Adelaide at [address]. Our operations director xyz abc is in the office <span class="lightText">Monday - Friday, 9am - 5pm ACST</span> and can be reached on <span class="lightText">(08) 8221 6565</span> should you have any questions or concerns to address.</p>
+                        </div>
+                    </div>	
+                    <div class="col-xs-12 innerbox aboutForeignXchange">
+                        <div class="border">
+                            <h2>ForeignXchange Features & Benefits</h2>
+                            <ul>
+                                <li><span class="lightText">Experience - </span> 10 years in the currency exchange business with 35,000 happy customers</li>
+                                <li><span class="lightText">Security - </span> security built into every stage of our process</li>
+                                <li><span class="lightText">Peace of mind - </span> our business and deliveries are backed by xyz level insurance</li>
+                                <li><span class="lightText">Best rates - </span> we strive to offer the best rates in the industry and can achieve it due to our lean business model and low overheads</li>
+                                <li><span class="lightText">Simplicity - </span> a simple three step process to get your currencies ready for your trip. Multiple currencies can be easily purchased together in one order</li>
+                                <li><span class="lightText">Convenience - </span> ordered from and delivered to you at home</li>
+                                <li><span class="lightText">Comprehensive - </span> 60+ currencies available, destination information, contact us with any questions or queries</li>
+                            </ul>
+                        </div>
+                    </div>	
+                    <div class="abouttext">
+                        No more battling city traffic and parking difficulties only to find the rates are terrible. Order your currencies from the comfort of your own home and have them delivered directly to you or a convenient pickup point.		
+                    </div>
+                    <div class="about-images">
+                        <div class="col-sm-offset-2 col-sm-8 col-xs-12">
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="about-img">
+                                    <img title="Abhishek Sharma" src="images/about-01.png"/>
+                                </div>
+                                <div class="about-name">
+                                    <h3>Abhishek Sharma</h3>
+                                    <span>Director</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="about-img">
+                                    <img title="Amit Shilotri" src="images/about-02.png"/>
+                                </div>
+                                <div class="about-name space-remove">
+                                    <h3>Amit Shilotri</h3>
+                                    <span>Director</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="col-sm-4 col-xs-12">
+                            <div class="about-img">
+                                <img title="Nick Morris" src="images/about-03.png"/>
+                            </div>
+                            <div class="about-name">
+                                <h3>Nick Morris</h3>
+                                <span>Head of Marketing</span>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </section>
+           <!-- START FOOTER  PART -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="flogo">
+                        <a href=""><img src="images/logo.png" alt=""/></a>
+                    </div>
+                    <p class="msgtext">
+                        Planning a trip? Need some help exchanging money or just have an enquiry? <br/>
+                        Contact us and we will get back to you with the right information.
+                    </p>
+                    <div class="main-footer">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Get in Touch</h3>
+                                <ul>
+                                    <li>
+                                        <a href="contact.html"><i class="fa fa-angle-right"></i>Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html"><i class="fa fa-angle-right"></i>FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="travelagent.html"><i class="fa fa-angle-right"></i>Travel Agent</a>
+                                    </li>
+                                    <li>
+                                        <a href="travel-rate-tracker.html"><i class="fa fa-angle-right"></i>Travel Rate Tracker</a>
+                                    </li>
+                                    <li>
+                                        <a href="cookie-consent.html"><i class="fa fa-angle-right"></i>Cookie Consent</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Cities</h3>
+                                <ul>
+                                    <li>
+                                        <a href="melbourne.html"><i class="fa fa-angle-right"></i>Melbourne</a>
+                                    </li>
+                                    <li>
+                                        <a href="sydney.html"><i class="fa fa-angle-right"></i>Sydney</a>
+                                    </li>
+                                    <li>
+                                        <a href="brisbane.html"><i class="fa fa-angle-right"></i>Brisbane</a>
+                                    </li>
+                                    <li>
+                                        <a href="adelaide.html"><i class="fa fa-angle-right"></i>Adelaide</a>
+                                    </li>
+                                    <li>
+                                        <a href="wollongong.html"><i class="fa fa-angle-right"></i>Wollongong</a>
+                                    </li>
+                                    <li>
+                                        <a href="perth.html"><i class="fa fa-angle-right"></i>Perth</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <h3>Buy Currency</h3>
+                                <ul>
+                                    <li>
+                                        <a href="AUD-EUR.html"><i class="fa fa-angle-right"></i>Euros</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-GBP.html"><i class="fa fa-angle-right"></i>British Pound</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-IDR.html"><i class="fa fa-angle-right"></i>Indian Rupiah</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-JPY.html"><i class="fa fa-angle-right"></i>Japanese Yen</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-NZD.html"><i class="fa fa-angle-right"></i>New Zealand Dollars</a>
+                                    </li>
+                                    <li>
+                                        <a href="AUD-USD.html"><i class="fa fa-angle-right"></i>US Dollars</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 rep-sec-f">
+                            <div class="rep-sec-f-sub">
+                                <div class="footer-social">
+                                    <h3>Social Media</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>                            
+                                </div>
+                                <div class="footer-contact-us">
+                                    <h3>Contact Us</h3>
+                                    <ul>
+                                        <li>
+                                            <div class="ficon ficon1"></div>
+                                            <p>Shop 2/52-65 King William Street
+                                                Adelaide. SA 5000</p>
+                                        </li>
+                                        <li>
+                
+                                            <div class="ficon ficon2"></div>
+                                            <p><a href="tel:0882216565">(08)8221 6565</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="ficon ficon3"></div>
+                                            <p><a href="mailto:info@foreignxchange.com.au">info@foreignxchange.com.au</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="ficon ficon4"></div>
+                                            <p>Mon-Fri 10.00 A.M-6.00 P.M <br/>
+                                                Sat 11.00 A.M-4 P.M</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <p> &copy; Foreign Xchange. All Rights Reserved | <a class="link" href="#">Terms of Use</a> | <a class="link" href="#">Privacy Policy</a> | <a class="link" href="#">Why Us</a> | <a class="link" href="about.html">About Us</a> | <a class="link" href="#">Blog</a></p>
+                        <p class="mar-top">ABN 19 168 102 332</p>
+                    </div>
+                </div>
+            </footer>
+            <!-- END FOOTER PART -->
+        </div>
+        <!-- FOR SIGN IN MODAL -->
+        <div class="modal fade modal-sign" id="Modal-signin" role="dialog">
+            <div class="modal-dialog">                        
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&nbsp;</button>
+                        <h4 class="form-title">Sign In</h4>
+                        <div class="forminn clearfix">
+                            <div class="formfield">
+                                <div class="form-group">
+                                    <label>Username</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group last">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="leftrmbr">
+                                    <label>Remember me<input type="checkbox"><span class="checkmark"></span></label>                       
+                                </div>
+                                <div class="rightrmbr">
+                                    <label><a href="#">Forgot password?</a><input type="checkbox"><span class="checkmark"></span></label>
+                                </div>
+                                <div class="btn-submitmodel">
+                                    <input type="submit" value="SIGN IN" class="btn">
+                                </div>
+                                <div class="reginote"><span>Don’t have an account? <a class="openmodel-register" href="#" data-toggle="modal" data-target="#Modal-signup" data-dismiss="modal">Register</a></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOR SIGN UP MODAL -->
+        <div class="modal fade modal-sign" id="Modal-signup" role="dialog">
+            <div class="modal-dialog">                        
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&nbsp;</button>
+                        <h4 class="form-title">Register</h4>
+                        <div class="forminn clearfix">
+                            <div class="formfield">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Address</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group last input-filefield">
+                                    <label>Identification</label>
+                                    <input type="file" name="file-7[]" id="file-7" class="inputfile inputfile-6" data-multiple-caption="{count} files selected" multiple />
+                                    <label for="file-7"><strong> Choose File</strong><span></span></label>
+                                </div>
+                                <p class="file-note">Please upload a Driving Licence Or Passport for proof of identification.</p>
+                                <div class="btn-submitmodel">
+                                    <input type="submit" value="REGISTER" class="btn">
+                                </div>
+                                <div class="reginote"><span>Already registered? <a href="#">Sign in</a></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

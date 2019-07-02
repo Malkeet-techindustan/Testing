@@ -79,14 +79,25 @@ footer i.fa.fa-facebook:before {
 	margin: 0;
 }
 p.msgtext {
-    color: #717171 !important;
-    letter-spacing: 1.5px !important;
+	color: #717171 !important;
+	letter-spacing: 1.5px !important;
 }
 .footer .copyright p a:hover {
-    color: #fecb1e !important;
+	color: #fecb1e !important;
 }
 .footer .copyright {
-    padding: 20px 0 40px !important;
+	padding: 20px 0 40px !important;
+}
+@media screen and (min-width: 1001px) and (max-width: 1270px){
+	.middle-header .col-md-3.col-sm-6 {
+		width: 30%;
+	}
+	.col-md-3.mob-hidden{
+		width: 10%;
+	}
+	.fusion-logo img {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 1000px){
 	.mob-hidden {
